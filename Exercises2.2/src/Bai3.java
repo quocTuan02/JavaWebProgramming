@@ -8,7 +8,7 @@ public class Bai3 {
         do {
             System.out.println("So tien: ");
             money = input.nextInt();
-            if (money%100000 != 0) System.out.println("Nhap so tien la boi cua 100000");
+            if (money%100000 != 0) System.out.println("Nhap so tien la boi cua 100,000");
         }while (money%100000 != 0);
 
 
@@ -24,7 +24,7 @@ public class Bai3 {
                 {
                     sum=soTo100k*100000+soTo200k*200000+soTo500k*500000;
                     if (sum==money) {
-                        System.out.printf("%d = %d*100000 + %d*200000 + %d*500000 \n", money, soTo100k, soTo200k, soTo500k);
+                        System.out.printf("%,d = %d*100.000 + %d*200.000 + %d*500.000 \n", money, soTo100k, soTo200k, soTo500k);
                     }else if (sum > money) break;
                 }
 

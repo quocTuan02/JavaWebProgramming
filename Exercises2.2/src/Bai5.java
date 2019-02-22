@@ -8,7 +8,7 @@ public class Bai5 {
             int m =input.nextInt();
         System.out.print(" chieu cao n: ");
             int n=input.nextInt();
-        // in ra hinh chu nhatb dac kich thuoc m*n
+        // in ra hinh chu nhat dac kich thuoc m*n
         System.out.printf("hinh chu nhat dac kich thuoc %d*%d \n",m,n);
         for (int i=0;i<n;i++){
             for (int j=0;j<m;j++){
@@ -16,6 +16,7 @@ public class Bai5 {
             }
             System.out.println("");
         }
+        // in ra hinh chu nhat rong kich thuoc m*n
         System.out.printf("\nhinh chu nhat rong kich thuoc %d*%d \n",m,n);
         for (int i=0;i<n;i++){
             for (int j=0;j<m;j++){
