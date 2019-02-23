@@ -32,7 +32,7 @@ public class Ex1 {
 //        System.out.println("number.length= " +number.length);
 //        System.out.println("number[0].length= " +number[0].length);
 
-        String name = new String();
+        String name = "";
         name = "Nguyễn Quốc Tuấn";
         System.out.println(name);
         System.out.println("name.length(): " + name.length());

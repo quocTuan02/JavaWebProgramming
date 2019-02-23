@@ -17,14 +17,14 @@ public class Bai3 {
             number[i]= new Scanner(System.in).nextInt();
         }
 
-        int consts=1;
+        int temp=0;
         for (int i=0; i<number.length;i++){
             if (a==number[i]) {
                 System.out.printf("%d nằm ở vị trí %d trong mảng \n",a,(i+1));
-                consts =0 ;
+                temp =1 ;
             }
         }
-        if (consts==0)  System.out.printf("==> %d tồn tại trong mảng",a);
+        if (temp==1)  System.out.printf("==> %d tồn tại trong mảng",a);
         else  System.out.printf("==> %d không tồn tại trong mảng",a);
 
     }
