@@ -1,6 +1,28 @@
 import java.util.Random;
 
 public class Bai2 {
+    // tạo ma trận
+    public static int[][]Matrix(){
+        Random random= new Random();
+        int[][] arr = new  int[3][3];
+        for (int i=0; i<arr.length;i++) {
+            for (int j = 0; j < arr[0].length; j++) {
+                arr[i][j] = random.nextInt(10);
+            }
+        }
+        return arr;
+    }
+    // in ra ma trận
+    public static void printMatrix(int [][] arr){
+        for (int i=0; i<arr.length;i++) {
+            for (int j = 0; j < arr[0].length; j++) {
+               System.out.print(arr[i][j]+"\t");
+            }
+            System.out.println("");
+        }
+        System.out.println("");
+    }
+
     public static void main (String[] args){
         /*
         Nhập vào 2 ma trận 3*3. Tính
@@ -8,40 +30,11 @@ public class Bai2 {
         - Tích của 2 ma trận
         - Định thức của ma trận
          */
-        Random random= new Random();
-        // tạo ma trận thứ nhất
-        int[][] a = new  int[3][3];
-        for (int i=0; i<a.length;i++){
-            for (int j=0;j<a[0].length;j++){
-                a[i][j]= random.nextInt(10);
-            }
-        }
+        int [][] a = Matrix();// tạo ma trận thứ nhất
+        printMatrix(a);// in ra ma trận vừa tạo
+        int[][] b= Matrix();// tạo ma trận thứ 2
+        printMatrix(b);// in ra ma trận vừa tạo
 
-
-        System.out.println("ma trận thứ nhất");
-        for (int i=0; i<a.length;i++){
-            for (int j=0;j<a[0].length;j++){
-                System.out.print("\t"+a[i][j]);
-            }
-            System.out.println("");
-        }
-        System.out.println("");
-        // tạo ma trận thứ 2
-        int[][] b = new  int[3][3];
-        for (int i=0; i<b.length;i++){
-            for (int j=0;j<b[0].length;j++){
-                b[i][j]= random.nextInt(10);
-            }
-        }
-
-        System.out.println("ma trận thứ 2");
-        for (int i=0; i<b.length;i++){
-            for (int j=0;j<b[0].length;j++){
-                System.out.print("\t"+b[i][j]);
-            }
-            System.out.println("");
-        }
-        System.out.println("");
         // tính tổng 2 ma trận
         int[][] c = new  int[3][3];
         for (int i=0; i<c.length;i++){
@@ -51,13 +44,7 @@ public class Bai2 {
         }
 
         System.out.println("tổng của 2 ma trận");
-        for (int i=0; i<c.length;i++){
-            for (int j=0;j<c[0].length;j++){
-               System.out.print("\t"+c[i][j]);
-            }
-            System.out.println("");
-        }
-
+        printMatrix(c);// in ra tổng 2 ma trận
 // tích của 2 ma trận
        int[][] d=new int[3][3];
         for (int m=0; m<d.length;m++){
@@ -69,11 +56,6 @@ public class Bai2 {
         }
 
         System.out.println("tích của 2 matrix: ");
-        for (int i=0;i<3;i++){
-            for (int j=0;j<3;j++){
-                System.out.print("\t"+d[i][j]);
-            }
-            System.out.println("");
-        }
+        printMatrix(d);
     }
 }

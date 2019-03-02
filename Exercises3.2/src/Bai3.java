@@ -47,8 +47,8 @@ public class Bai3 {
         else System.out.println("ma trận trên không phải là ma trận 0");
         // kiểm tra ma trận đơn đối xứng
         flag=true;
-        for (int i=0; i<number.length;i++){
-            for (int j=0;j<number[0].length;j++){
+        for (int i=0; i<number.length-1;i++){
+            for (int j=i+1;j<number[0].length;j++){
                 if (number[i][j]==number[j][i]);
                 else {
                     flag=false;
