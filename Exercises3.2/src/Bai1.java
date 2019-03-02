@@ -5,7 +5,7 @@ public class Bai1 {
         /*
         Nhập vào ma trận 2 chiều 3*3. In ra ma trận vừa nhập
        - Tính tổng mỗi hàng của ma trận và in ra
-       - Tính tổng mỗi cột của ma trận và in ra
+       - Tính tổng mỗi cột của ma trận và in ra.
          */
         Random random= new Random();
         int[][] number = new  int[3][3];

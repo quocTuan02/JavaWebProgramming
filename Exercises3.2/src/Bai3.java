@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Bai3 {
     public static void main (String[] args) {
-        //
+
         Random random= new Random();
         int[][] number = new  int[3][3];
         for (int i=0; i<number.length;i++){

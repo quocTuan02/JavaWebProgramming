@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2722bfc-e4cd-4d60-9d7d-236b1a72981a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai1/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai1/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1/Personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/Personnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises3.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises3.2/src/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/src/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises3.2/src/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/src/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises3.2/src/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/src/Bai3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +96,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551548314263" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551548501092" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -163,12 +160,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551527418876</updated>
       <workItem from="1551527423253" duration="4623000" />
-      <workItem from="1551540751748" duration="7555000" />
+      <workItem from="1551540751748" duration="8094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12178000" />
+    <option name="totallyTimeSpent" value="12717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />

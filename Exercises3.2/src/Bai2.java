@@ -28,7 +28,7 @@ public class Bai2 {
         Nhập vào 2 ma trận 3*3. Tính
         - Tổng của 2 ma trận
         - Tích của 2 ma trận
-        - Định thức của ma trận
+        - Định thức của ma trận.
          */
         int [][] a = Matrix();// tạo ma trận thứ nhất
         printMatrix(a);// in ra ma trận vừa tạo
