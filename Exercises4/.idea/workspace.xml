@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2722bfc-e4cd-4d60-9d7d-236b1a72981a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Exercises3.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises3.2/src/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/src/Bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises3.2/src/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/src/Bai2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises3.2/src/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/src/Bai3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bai2/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="314">
               <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
               <folding>
                 <element signature="e#625#626#0" expanded="true" />
@@ -96,7 +93,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551548501092" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551548859287" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -160,12 +157,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551527418876</updated>
       <workItem from="1551527423253" duration="4623000" />
-      <workItem from="1551540751748" duration="8094000" />
+      <workItem from="1551540751748" duration="8134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12717000" />
+    <option name="totallyTimeSpent" value="12757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -179,7 +176,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05240793" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.05240793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,7 +275,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai2/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="314">
           <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
           <folding>
             <element signature="e#625#626#0" expanded="true" />
