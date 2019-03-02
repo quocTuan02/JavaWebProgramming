@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2722bfc-e4cd-4d60-9d7d-236b1a72981a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bai1/Personnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises3.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3.2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai1/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai1/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai1/Personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/Personnel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bai1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/student.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,43 +18,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Bai1/main.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai2/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="97">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bai1/Personnel.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Bai2/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="277">
+              <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
                 <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +56,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Bai1/Personnel.java" />
         <option value="$PROJECT_DIR$/src/Bai1/main.java" />
+        <option value="$PROJECT_DIR$/src/Bai2/student.java" />
+        <option value="$PROJECT_DIR$/src/Bai1/Personnel.java" />
+        <option value="$PROJECT_DIR$/src/Bai2/main.java" />
+        <option value="$PROJECT_DIR$/src/Bai2/Student.java" />
       </list>
     </option>
   </component>
@@ -105,12 +89,6 @@
               <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -121,7 +99,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551531912459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551548314263" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -140,7 +118,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main (1)">
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai2.main" />
+      <module name="Exercises4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai1.main" />
       <module name="Exercises4" />
@@ -156,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main (1)" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -170,86 +162,131 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551527418876</updated>
-      <workItem from="1551527423253" duration="4234000" />
+      <workItem from="1551527423253" duration="4623000" />
+      <workItem from="1551540751748" duration="7555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4234000" />
+    <option name="totallyTimeSpent" value="12178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11744966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22237961" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05240793" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11744966" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11048159" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Bai1/Personnel.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="41">
+          <caret line="657" column="53" selection-start-line="657" selection-start-column="22" selection-end-line="657" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="2344" selection-start-line="2344" selection-end-line="2344" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai1/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="651">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai1/Personnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai2/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai2/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+          <folding>
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

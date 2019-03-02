@@ -52,6 +52,7 @@ public class Personnel {
         System.out.print("Tuổi: ");
         this.year=scanner.nextInt();
         System.out.print("Địa chỉ: ");
+        scanner.nextLine();
         this.address=scanner.nextLine();
         System.out.print("Tiền lương: ");
         this.salary=scanner.nextDouble();
