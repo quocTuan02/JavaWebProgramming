@@ -18,9 +18,10 @@ Nếu tổng số giờ làm của nhân viên <100 thì thưởng = 0
 public class main {
     public static void main(String[] args){
         Personnel personnel=new Personnel();
-        personnel.inputInfor();
-        personnel.printInfor();
-        System.out.println("tiền thưởng: "+personnel.tinhThuong());
+        personnel.inputInfo();
+        personnel.printInfo();
+        System.out.println("tiền thưởng: "+personnel.bonus());
 
     }
+
 }

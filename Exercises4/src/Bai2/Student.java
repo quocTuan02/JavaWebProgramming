@@ -36,7 +36,7 @@ public class Student {
         this.cLass = cLass;
     }
 
-    public void inputInfor(){
+    public void inputInfo(){
         Scanner scanner= new Scanner(System.in);
         do {
             System.out.print("\nMÃ sinh viên: ");
@@ -74,7 +74,7 @@ public class Student {
 
         }while (cLass.charAt(0)!='A'||cLass.charAt(0)!='C');
     }
-    public void showInfor(){
+    public void showInfo(){
         System.out.println("Mã sinh viên: "+studentID);
         System.out.println("Điểm trung bình: "+AvgMark);
         System.out.println("Tuổi: "+year);

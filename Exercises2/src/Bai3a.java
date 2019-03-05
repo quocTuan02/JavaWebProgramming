@@ -14,4 +14,5 @@ public class Bai3a {
         if (m==1) System.out.printf("%d la so nguyen to",n);
             else System.out.printf("%d  khong phai so nguyen to",n);
     }
+
 }

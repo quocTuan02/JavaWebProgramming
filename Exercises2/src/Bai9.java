@@ -10,7 +10,7 @@ public class Bai9 {
 
         double Cos=0;
         double e=1; // sai so
-        double E= 0.0001;
+        final double E= 0.0001;
         while (e>E){
             long giaiThua=1;
             for (int i=1;i<=(2*n);i++) giaiThua*=i;

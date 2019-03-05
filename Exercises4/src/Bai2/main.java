@@ -15,8 +15,9 @@ c. Viết phương thức xét xem Student có được học bổng không? Đi
 public class main {
     public static void main(String[] args){
         Student student = new Student();
-        student.inputInfor();
-        student.showInfor();
+        student.inputInfo();
+        student.showInfo();
         student.scholarship();
+
     }
 }

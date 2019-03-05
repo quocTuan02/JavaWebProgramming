@@ -4,11 +4,11 @@ import javax.swing.plaf.synth.SynthEditorPaneUI;
 import java.util.Scanner;
 
 public class Personnel {
-    public String name;
-    public int year;
-    public String address;
-    public double salary;
-    public int timeWork;
+    private String name;
+    private int year;
+    private String address;
+    private double salary;
+    private int timeWork;
 
     public String getName() {
         return name;
@@ -45,7 +45,7 @@ public class Personnel {
         this.timeWork = timeWork;
     }
 
-    public void inputInfor(){
+    public void inputInfo(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nTên: ");
         this.name=scanner.nextLine();
@@ -59,7 +59,7 @@ public class Personnel {
         System.out.print("Tổng số giờ làm việc: ");
         this.timeWork=scanner.nextInt();
     }
-    public void printInfor(){
+    public void printInfo(){
         System.out.print("\nTên: "+name);
         System.out.println("\nTuổi: "+year);
         System.out.println("Địa chỉ: "+address);
@@ -67,14 +67,14 @@ public class Personnel {
         System.out.println("Tổng số giờ làm việc: "+timeWork);
 
     }
-    public double tinhThuong(){
-        double tinhThuong;
+    public double bonus(){
+        double bonus;
         if (timeWork>=200) {
-            tinhThuong=salary*0.2;
+           bonus=salary*0.2;
         }else if (timeWork<200&&timeWork>=100){
-            tinhThuong=salary*0.1;
-        }else tinhThuong=0;
-        return tinhThuong;
+            bonus=salary*0.1;
+        }else bonus=0;
+        return bonus;
     }
 
 }
