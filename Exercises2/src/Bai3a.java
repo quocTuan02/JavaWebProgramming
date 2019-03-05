@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Bai3a {
-        // kiem tra n co phai so nguyen to .
+        // kiem tra n co phai so nguyen to
     public static void main(String[] args){
         Scanner input= new Scanner(System.in);
         System.out.print("nhap so nguyen to n= ");

@@ -57,7 +57,7 @@ public class Fraction {
         System.out.println(denominator+"/"+numerator);
     }
     public void add(){
-        
+
     }
 
 }

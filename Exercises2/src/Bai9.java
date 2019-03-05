@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Bai9 {
-        // tinh Cos(x)
+        // tinh Cos(x) .
     public static void main(String[] args) {
         System.out.print("x(do)= ");
         double x = new Scanner(System.in).nextDouble();
