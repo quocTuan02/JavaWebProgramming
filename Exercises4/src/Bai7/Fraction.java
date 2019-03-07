@@ -3,8 +3,8 @@ package Bai7;
 import java.util.Scanner;
 
 public class Fraction {
-    private int numerator;
-    private int denominator;
+    private int numerator;//tu so
+    private int denominator;//mau so
 
     public int getNumerator(){
         return numerator;
@@ -31,8 +31,8 @@ public class Fraction {
     }
 
     public int gcd(){
-        int a= numerator;
-        int b= denominator;
+        int a= Math.abs(numerator);
+        int b= Math.abs(denominator);
         while (a!=b){
             if (a>b){
                 a=a-b;
@@ -46,18 +46,100 @@ public class Fraction {
                 a=a-b;
             } else b=b-a;
         }
-        return a;
+        return a;// ước chung lớn nhất
+    }
+    public int lcm(int a,int b){
+        return (a*b)/gcd(a,b);// boi chung nho nhat
     }
     public void compact(){
+        // rut gon phan so
         int a= numerator/gcd();
         int b= denominator/gcd();
-        System.out.println(a+"/"+b);
+
+        if (b!=1){
+            System.out.println(a+"/"+b);
+        } else System.out.println(a);
     }
     public void inverse(){
+        //phan so nghich dao
         System.out.println(denominator+"/"+numerator);
     }
     public void add(){
+        System.out.println("phép cộng 2 phân số");
+        int tuSo1,tuSo2,mauSo1,mauSo2;
+        Scanner scanner= new Scanner(System.in);
+        System.out.print("tuSo1: ");
+        tuSo1=scanner.nextInt();
+        System.out.print("mauSo1: ");
+        mauSo1=scanner.nextInt();
 
+        System.out.print("tuSo2: ");
+        tuSo2=scanner.nextInt();
+        System.out.print("mauSo2: ");
+        mauSo2=scanner.nextInt();
+
+        numerator=tuSo1*lcm(mauSo1,mauSo2)/mauSo1+tuSo2*lcm(mauSo1,mauSo2)/mauSo2;
+        denominator= lcm(mauSo1,mauSo2);
+        System.out.print(tuSo1+"/" +mauSo1 +" + "+tuSo2+"/"+mauSo2 +" = ");
+        compact();
+
+    }
+    public  void sub(){
+        System.out.println("phép trừ 2 phân số");
+        int tuSo1,tuSo2,mauSo1,mauSo2;
+        Scanner scanner= new Scanner(System.in);
+        System.out.print("tuSo1: ");
+        tuSo1=scanner.nextInt();
+        System.out.print("mauSo1: ");
+        mauSo1=scanner.nextInt();
+
+        System.out.print("tuSo2: ");
+        tuSo2=scanner.nextInt();
+        System.out.print("mauSo2: ");
+        mauSo2=scanner.nextInt();
+
+        numerator=tuSo1*lcm(mauSo1,mauSo2)/mauSo1 - tuSo2*lcm(mauSo1,mauSo2)/mauSo2;
+        denominator= lcm(mauSo1,mauSo2);
+        System.out.print(tuSo1+"/" +mauSo1 +" - "+tuSo2+"/"+mauSo2 +" = ");
+        compact();
+    }
+    public void mul(){
+        System.out.println("phép nhân 2 phân số");
+        int tuSo1,tuSo2,mauSo1,mauSo2;
+        Scanner scanner= new Scanner(System.in);
+        System.out.print("tuSo1: ");
+        tuSo1=scanner.nextInt();
+        System.out.print("mauSo1: ");
+        mauSo1=scanner.nextInt();
+
+        System.out.print("tuSo2: ");
+        tuSo2=scanner.nextInt();
+        System.out.print("mauSo2: ");
+        mauSo2=scanner.nextInt();
+
+        numerator = tuSo1*tuSo2;
+        denominator = mauSo1*mauSo2;
+        System.out.print(tuSo1+"/" +mauSo1 +" * "+tuSo2+"/"+mauSo2 +" = ");
+        compact();
+    }
+    public void div(){
+        System.out.println("phép chia 2 phân số");
+        int tuSo1,tuSo2,mauSo1,mauSo2;
+        Scanner scanner= new Scanner(System.in);
+        System.out.print("tuSo1: ");
+        tuSo1=scanner.nextInt();
+        System.out.print("mauSo1: ");
+        mauSo1=scanner.nextInt();
+
+        System.out.print("tuSo2: ");
+        tuSo2=scanner.nextInt();
+        System.out.print("mauSo2: ");
+        mauSo2=scanner.nextInt();
+
+        numerator = tuSo1*mauSo2;
+        denominator = mauSo1*tuSo2;
+        System.out.print(tuSo1+"/" +mauSo1 +" % "+tuSo2+"/"+mauSo2 +" = ");
+        compact();
     }
 
 }

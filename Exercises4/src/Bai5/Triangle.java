@@ -99,5 +99,4 @@ public class Triangle {
         }
         return 0;
     }
-
 }

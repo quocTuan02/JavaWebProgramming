@@ -7,7 +7,6 @@ Xây dựng lớp hình chữ nhật (Rectangle) có các thành phần sau:
 - Tính diện tích
 - Tính chu vi
  */
-
 public class main {
     public static void main(String[] args){
         Rectangle rectangle=new Rectangle();

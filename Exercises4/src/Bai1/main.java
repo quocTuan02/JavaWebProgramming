@@ -13,7 +13,7 @@ Các hàm get/set Và các phương thức:
 - double tinhThuong(): Tính toán và trả về số tiền thưởng của nhân viên theo công thức sau:
 Nếu tổng số giờ làm của nhân viên >=200 thì thưởng = lương * 20%
 Nếu tổng số giờ làm của nhân viên <200 và >=100 thì thưởng = lương * 10%
-Nếu tổng số giờ làm của nhân viên <100 thì thưởng = 0
+Nếu tổng số giờ làm của nhân viên <100 thì thưởng = 0 .
  */
 public class main {
     public static void main(String[] args){

@@ -9,7 +9,6 @@ d/ Các kì thi chỉ thi lần đầu tiên
     Viết chương trình xem học viên đó có được học bổng không.
  */
 public class main {
-
     public  static void  main(String[] args){
 
     }

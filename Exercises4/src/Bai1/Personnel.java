@@ -65,7 +65,6 @@ public class Personnel {
         System.out.println("Địa chỉ: "+address);
         System.out.println("Tiền lương: "+salary);
         System.out.println("Tổng số giờ làm việc: "+timeWork);
-
     }
     public double bonus(){
         double bonus;

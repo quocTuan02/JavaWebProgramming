@@ -9,8 +9,7 @@ Hàm boolean checkPrime(int x){} kiểm tra số x có phải số nguyên tố 
 Hàm int timSoNguyenToTiepTheo(){} tìm và trả về số nguyên tố liền sau số nguyên tố a.
 Hàm get/set biến a; Nếu tham số truyền vào hàm set là 1 số nguyên tố thì mới gán vào a.
 Nếu không thì hiển thị thông báo: không set.
-Ở hàm Main. Khai báo 1 đối tượng thuộc class numberPrime và test các hàm đã viết.
-
+Ở hàm Main. Khai báo 1 đối tượng thuộc class numberPrime và sophuc các hàm đã viết.
  */
 public class main {
     public static void main(String[] args){

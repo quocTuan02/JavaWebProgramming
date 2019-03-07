@@ -26,7 +26,6 @@ public class Rectangle {
         System.out.print("chiều rộng: ");
         this.width=new Scanner(System.in).nextDouble();
     }
-
     public double circumference(){
         return length+width;
     }

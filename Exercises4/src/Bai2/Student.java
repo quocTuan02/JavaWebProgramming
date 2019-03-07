@@ -61,7 +61,6 @@ public class Student {
                 System.out.println("Tuổi: Phải lớn hơn hoặc bằng 18");
             }
         }while (year<18);
-
         scanner.nextLine();
         do {
             System.out.print("Lớp: ");

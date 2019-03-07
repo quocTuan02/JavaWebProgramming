@@ -15,6 +15,5 @@ public class main {
         triangle.checkTriangle();
         System.out.println("chu vi tam giác: "+triangle.circumference());
         System.out.println("diện tích tam giác: "+triangle.area());
-
     }
 }

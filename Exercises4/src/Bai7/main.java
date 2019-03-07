@@ -11,6 +11,7 @@ Xây dựng lớp Phân số (Fraction) có các thành phần sau:
 - Nghịch đảo phân số
 - add(), sub(), mul(), div() tương ứng để thực hiện cộng, trừ, nhân, chia hai phân số cho nhau.
  */
+
 public class main {
     public static void main(String[] args){
         Fraction fraction = new Fraction();
@@ -18,6 +19,11 @@ public class main {
         fraction.print();
         fraction.compact();
         fraction.inverse();
-
+        fraction.add();
+        fraction.sub();
+        fraction.mul();
+        fraction.div();
+        // code chưa ổn
+        
     }
 }
