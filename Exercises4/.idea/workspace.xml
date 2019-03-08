@@ -2,33 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2722bfc-e4cd-4d60-9d7d-236b1a72981a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bai8/complexNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai8/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai9/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai10/Polylomial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai10/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai1/Personnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai1/Personnel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai2/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai3/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai3/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai4/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai4/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai4/numberPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai4/numberPrime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai5/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai5/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai6/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai6/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai6/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai6/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai7/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai7/Fraction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai7/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai7/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1/Personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/Personnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai2/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai2/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai3/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4/numberPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4/numberPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai5/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai5/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai5/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai5/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai6/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai6/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai6/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai6/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai8/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai8/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai9/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai9/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bai7/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai7/Fraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bai7/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai7/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai8/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai8/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,25 +23,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bai7/Fraction.java">
+        <entry file="file://$PROJECT_DIR$/src/Bai8/complexNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1581">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai9/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Bai9/main.java">
+        <entry file="file://$PROJECT_DIR$/src/Bai10/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="438">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai10/Polylomial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -66,8 +61,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bai7/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="310">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai7/Fraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3069">
+              <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+              <folding>
+                <element signature="e#1931#1932#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,14 +112,16 @@
         <option value="$PROJECT_DIR$/src/Bai6/main.java" />
         <option value="$PROJECT_DIR$/src/Bai6/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/Bai9/MyComplex.java" />
-        <option value="$PROJECT_DIR$/src/Bai7/main.java" />
         <option value="$PROJECT_DIR$/src/Bai9/mail.java" />
-        <option value="$PROJECT_DIR$/src/Bai9/main.java" />
         <option value="$PROJECT_DIR$/src/Bai8/test.java" />
         <option value="$PROJECT_DIR$/src/Bai8/sophuc.java" />
-        <option value="$PROJECT_DIR$/src/Bai8/main.java" />
         <option value="$PROJECT_DIR$/src/Bai8/complexNumbers.java" />
+        <option value="$PROJECT_DIR$/src/Bai9/main.java" />
+        <option value="$PROJECT_DIR$/src/Bai8/main.java" />
         <option value="$PROJECT_DIR$/src/Bai7/Fraction.java" />
+        <option value="$PROJECT_DIR$/src/Bai7/main.java" />
+        <option value="$PROJECT_DIR$/src/Bai10/Polylomial.java" />
+        <option value="$PROJECT_DIR$/src/Bai10/main.java" />
       </list>
     </option>
   </component>
@@ -144,55 +154,7 @@
               <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai9" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551969934565" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552013462154" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercises2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -277,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai4.main" />
+    <configuration name="main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai10.main" />
       <module name="Exercises4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bai4.*" />
+          <option name="PATTERN" value="Bai10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,9 +269,9 @@
       <list>
         <item itemvalue="Application.main (5)" />
         <item itemvalue="Application.main (4)" />
+        <item itemvalue="Application.main (5)" />
         <item itemvalue="Application.main (3)" />
         <item itemvalue="Application.main (2)" />
-        <item itemvalue="Application.main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -329,18 +291,18 @@
       <workItem from="1551588945985" duration="8940000" />
       <workItem from="1551698541229" duration="15769000" />
       <workItem from="1551755226095" duration="11967000" />
-      <workItem from="1551883484758" duration="13224000" />
+      <workItem from="1551883484758" duration="27584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64221000" />
+    <option name="totallyTimeSpent" value="78581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,7 +311,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35410765" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.38668555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,8 +320,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.49858356" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
@@ -371,7 +333,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,7 +342,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35410765" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31303117" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,7 +352,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
@@ -500,20 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai4/numberPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai6/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai9/MyComplex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
@@ -532,57 +480,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai8/complexNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1459">
-          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai8/sophuc.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai8/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="281">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai4/numberPrime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai6/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai7/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="310">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai7/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="3069">
+          <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
           <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai8/complexNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai9/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-248">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai10/Polylomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai10/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>

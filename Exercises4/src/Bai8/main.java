@@ -31,11 +31,5 @@ public class main {
        System.out.println("");
        a.print();System.out.print(" / ");b.print();System.out.print(" = ");z.print();
 
-
-
-// chưa làm xong
-
-
-
    }
 }

@@ -14,16 +14,39 @@ Xây dựng lớp Phân số (Fraction) có các thành phần sau:
 
 public class main {
     public static void main(String[] args){
-        Fraction fraction = new Fraction();
-        fraction.input();
-        fraction.print();
-        fraction.compact();
-        fraction.inverse();
-        fraction.add();
-        fraction.sub();
-        fraction.mul();
-        fraction.div();
-        // code chưa ổn
-        
+        Fraction a=new Fraction(1,2),b=new Fraction(3,4),z=new Fraction();
+//        a.input();
+//        b.input();
+
+
+
+        z.add(a,b);// print add()
+        a.print();
+        System.out.print(" + ");
+        b.print();
+        System.out.print(" = ");
+        z.print();
+            System.out.println("");
+        z.sub(a,b);//print sub()
+        a.print();
+        System.out.print(" - ");
+        b.print();
+        System.out.print(" = ");
+        z.print();
+            System.out.println("");
+        z.mul(a,b);// print mul()
+        a.print();
+        System.out.print(" * ");
+        b.print();
+        System.out.print(" = ");
+        z.print();
+            System.out.println("");
+        z.div(a,b);//print div()
+        a.print();
+        System.out.print(" % ");
+        b.print();
+        System.out.print(" = ");
+        z.print();
+
     }
 }
