@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class numberPrime {
     private int a;
+
+    public numberPrime(){}
+    public numberPrime(int a) {
+        this.a = a;
+    }
+
     public int getA() {
         return a;
     }

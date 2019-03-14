@@ -8,6 +8,14 @@ public class Student {
     public int year;
     public String cLass;
 
+    public Student(){}
+    public Student(String studentID, double avgMark, int year, String cLass) {
+        this.studentID = studentID;
+        AvgMark = avgMark;
+        this.year = year;
+        this.cLass = cLass;
+    }
+
     public String getStudentID() {
         return studentID;
     }

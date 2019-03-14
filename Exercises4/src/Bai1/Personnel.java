@@ -10,6 +10,15 @@ public class Personnel {
     private double salary;
     private int timeWork;
 
+    public Personnel(){}
+    public Personnel(String name, int year, String address, double salary, int timeWork) {
+        this.name = name;
+        this.year = year;
+        this.address = address;
+        this.salary = salary;
+        this.timeWork = timeWork;
+    }
+
     public String getName() {
         return name;
     }

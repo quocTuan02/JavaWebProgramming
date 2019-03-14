@@ -12,12 +12,16 @@ public class main {
         a.print();
         System.out.print("\nĐa thức P(x): ");
         b.print();
-        z.add(a,b);
-        System.out.print("\nTổng của 2 đa thức: ");
-        z.print();
-        z.sub(a,b);
-        System.out.print("\nHiệu của 2 đa thức: ");
-        z.print();
+//        z.add(a,b);
+//        System.out.print("\nTổng của 2 đa thức: ");
+//        z.print();
+//        z.sub(a,b);
+//        System.out.print("\nHiệu của 2 đa thức: ");
+//        z.print();
+//        z.mul(a,b);
+//        System.out.printf("kq: ");
+//        z.print();
+
     }
 
 }

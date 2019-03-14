@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class complexNumbers {
     private double real,imag;
 
+    public complexNumbers(){}
     public complexNumbers(double real, double imag){
         this.real = real;
         this.imag = imag;
@@ -26,8 +27,6 @@ public class complexNumbers {
     }
 
 
-
-    public complexNumbers(){}
    public void input(){
        System.out.print("nhập lần lượt phần thực và ảo: ");
        real=new Scanner(System.in).nextDouble();
