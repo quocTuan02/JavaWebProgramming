@@ -21,7 +21,6 @@ public class Battery {
     public void  decreaseEnergy(){
         //  mỗi lần Pin được sử dụng, năng lượng của Pin sẽ giảm đi 2 đơn vị
         energy-=2;
-
     }
 
 

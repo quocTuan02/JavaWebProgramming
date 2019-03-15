@@ -8,6 +8,11 @@ Mô tả chi tiết lớp các đối tượng pin và đèn như sau:
  */
 public class TestFlashLamp {
     public static void main(String[] args) {
+        Battery battery= new Battery(); //- Khai báo và khởi tạo một đối tượng Battery
+        FlashLap flashLap = new FlashLap();//- Khai báo và khởi tạo một đối tượng FlashLamp
+        flashLap.setBattery(battery);//- Lắp pin cho đèn
+        // - Bật và tắt đèn pin 10 lần
+        // - Hiển thị ra màn hình mức năng lượng còn lại trong pin
 
     }
 }

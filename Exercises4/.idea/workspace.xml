@@ -2,41 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2722bfc-e4cd-4d60-9d7d-236b1a72981a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bai11/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai11/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai15/Battery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai15/FlashLap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai15/TestFlashLamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai16/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/Ellipse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/EquilateralTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/IsoscelesTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/Parallelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/SquareTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shape/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai17/MyCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai17/MyPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai17/TestMyPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai1/Personnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai1/Personnel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai10/Polylomial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai10/Polylomial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai10/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai10/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai2/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai4/numberPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai4/numberPrime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai5/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai5/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai6/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai6/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises4/Bai8/complexNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises4/Bai8/complexNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1/Personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/Personnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai10/Polylomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai10/Polylomial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai10/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai10/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai2/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4/numberPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4/numberPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai5/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai5/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai6/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai6/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai8/complexNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai8/complexNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai15/Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai15/Battery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai15/FlashLap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai15/FlashLap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai15/TestFlashLamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai15/TestFlashLamp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,29 +19,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bai15/TestFlashLamp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Bai15/FlashLap.java">
+        <entry file="file://$PROJECT_DIR$/src/Bai17/TestMyPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state relative-caret-position="376">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bai15/Battery.java">
+        <entry file="file://$PROJECT_DIR$/src/Bai17/MyCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="527">
+              <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+              <folding>
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1491#1492#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1643#1644#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai10/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai17/MyPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-473">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding>
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,10 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Bai2/main.java" />
-        <option value="$PROJECT_DIR$/src/Bai3/main.java" />
-        <option value="$PROJECT_DIR$/src/Bai4/main.java" />
-        <option value="$PROJECT_DIR$/src/Bai5/main.java" />
         <option value="$PROJECT_DIR$/src/Bai6/main.java" />
         <option value="$PROJECT_DIR$/src/Bai9/MyComplex.java" />
         <option value="$PROJECT_DIR$/src/Bai9/mail.java" />
@@ -136,10 +141,14 @@
         <option value="$PROJECT_DIR$/src/Bai8/complexNumbers.java" />
         <option value="$PROJECT_DIR$/src/Bai16/main.java" />
         <option value="$PROJECT_DIR$/src/Bai15/FlashLamp.java" />
-        <option value="$PROJECT_DIR$/src/Bai15/Battery.java" />
         <option value="$PROJECT_DIR$/src/Bai15/main.java" />
         <option value="$PROJECT_DIR$/src/Bai15/TestFlashLamp.java" />
         <option value="$PROJECT_DIR$/src/Bai15/FlashLap.java" />
+        <option value="$PROJECT_DIR$/src/Bai15/Battery.java" />
+        <option value="$PROJECT_DIR$/src/Bai17/main.java" />
+        <option value="$PROJECT_DIR$/src/Bai17/MyPoint.java" />
+        <option value="$PROJECT_DIR$/src/Bai17/MyCircle.java" />
+        <option value="$PROJECT_DIR$/src/Bai17/TestMyPoint.java" />
       </list>
     </option>
   </component>
@@ -173,7 +182,7 @@
               <item name="Exercises4" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercises4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai15" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai17" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552582331755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552672396602" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercises2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -204,7 +213,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main (2)">
+  <component name="RunManager" selected="Application.TestMyPoint">
+    <configuration name="TestMyPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai17.TestMyPoint" />
+      <module name="Exercises4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex.main" />
       <module name="Exercises4" />
@@ -224,19 +246,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Bai16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai7.main" />
-      <module name="Exercises4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bai7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMyPoint" />
         <item itemvalue="Application.main (2)" />
         <item itemvalue="Application.main (2)" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.main (1)" />
-        <item itemvalue="Application.main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -312,12 +321,12 @@
       <workItem from="1551883484758" duration="43788000" />
       <workItem from="1552487974470" duration="1429000" />
       <workItem from="1552489581654" duration="2614000" />
-      <workItem from="1552492921686" duration="35883000" />
+      <workItem from="1552492921686" duration="44687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134711000" />
+    <option name="totallyTimeSpent" value="143515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -332,7 +341,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3243626" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,51 +363,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Codota" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12751678" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3243626" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.49858356" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Codota" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5824">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai7.java" />
     <entry file="file://$PROJECT_DIR$/src/Bai3/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -441,13 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="1868" column="16" selection-start-line="1868" selection-start-column="16" selection-end-line="1868" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai10/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -719,24 +685,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai15/Battery.java">
+    <entry file="file://$PROJECT_DIR$/src/Bai10/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai15/TestFlashLamp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="186">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai15/FlashLap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="465">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai15/Battery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai17/MyPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai17/MyCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai17/TestMyPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
