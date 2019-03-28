@@ -16,8 +16,8 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        super.toString();
-        return "Email: "+this.email;
+        return  super.toString()+ "\nEmail: "+this.email;
+
     }
 
     public Student(){}
