@@ -9,76 +9,23 @@ public class Student {
     private String phone;
     Scanner scanner = new Scanner(System.in);
 
-    public void input(){
-        /**
-         * Nhập Mã học viên sẽ là chuỗi bắt đầu bằng chữ HV sau đó là số thứ tự gồm 3 chữ số
-         * ví dụ: HV023, HV032
-         */
-        do {
-            System.out.print("Id: ");
-            this.id=scanner.nextLine();
-            String str = id.split();
-            boolean c ;
-            try {
-                Integer.parseInt(str);
-                c=true;
-            } catch (Exception e) {
-                c=false;
-            }
-
-            if (id.startsWith("HV") && id.length()==5&& c){
-                break;
-            }else {
-                System.out.println("Mã học viên sẽ là chuỗi bắt đầu bằng chữ HV sau đó là số thứ tự gồm 3 chữ số, ví dụ: HV023, HV032");
-
-            }
-        }while (true);
-        /**
-         * nhập tên học viên
-         */
-        System.out.print("Name: ");
-        this.name=scanner.nextLine();
-        /**
-         * Nhập Điểm tổng kết là số thực có giá trị từ 1 - 10
-         * nếu người dùng nhập sai cũng đưa ra thông báo và yêu cầu nhập lại.
-         */
-        do {
-            try {
-                System.out.print("Mark: ");
-                this.mark=Integer.parseInt(scanner.nextLine());
-                if (mark>=0 && mark<=10){
-                    break;
-                }else {
-                    System.out.println("Điểm tổng kết phải là số thực có giá trị từ 1 - 10");
-                }
-            }catch (Exception e){
-                System.out.println("Điểm tổng kết phải là số thực có giá trị từ 1 - 10");
-            }
-        }while (true);
-
-        /**
-         * Tương tự với số điện thoại,
-         * nếu người dùng nhập sai định dạng sẽ yêu cầu nhập lại cho đến khi nhập đúng.
-         */
-        do {
-            try {
-                System.out.print("Phone: ");
-                this.phone=scanner.nextLine();
-                Integer.parseInt(this.phone);
-                break;
-            }catch (Exception e){
-                System.out.println("Sai định dang số điện thoại");
-            }
-        }while (true);
-    }
-
     public Student(){}
-    public Student(String id, String name, double mark, int group, String phone) {
+    public Student(String id, String name, double mark,  String phone) {
         this.id = id;
         this.name = name;
         this.mark = mark;
-        this.group = group;
+        calGroup();
         this.phone = phone;
+    }
+    private void calGroup() {
+        if (this.mark >= 8)
+            this.setGroup(1);
+        else if (this.mark >= 6)
+            this.setGroup(2);
+        else if (this.mark >= 4)
+            this.setGroup(3);
+        else
+            this.setGroup(4);
     }
 
     public String getId() {
