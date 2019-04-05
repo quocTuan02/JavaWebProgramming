@@ -11,7 +11,7 @@ public class main {
         } else if (c.toUpperCase().equals("E")) {
             instance = new EmployeeManager();
         } else {
-            System.out.println("Not valid");
+            System.out.println("Not valid !");
         }
 
         if (instance != null) {
