@@ -10,7 +10,6 @@ public class TaskManager {
     public TaskManager() {
         this.list = new ArrayList<>();
     }
-
     /*
     void add(Task task) //task được thêm vào mảng và ghi vào ﬁle
      */

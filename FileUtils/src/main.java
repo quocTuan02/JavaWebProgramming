@@ -1,6 +1,5 @@
 import java.io.File;
 import java.util.Scanner;
-
 /**
  * Xây dựng lớp FileUtils chứa các phương thức để thực hiện các yêu cầu sau
  * ( mỗi yêu cầu viêt thành 1 method trong lớp FileUtils)

@@ -42,7 +42,6 @@ public class SimpleVim {
             } while (true);
         } catch (Exception e) {
         }
-
     }
 
 
