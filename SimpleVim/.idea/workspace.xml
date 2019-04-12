@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b3bd59-3109-49ee-bd3a-833b562e9609" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../FileUtils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FileUtils/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FileUtils/src/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FileUtils/src/FileUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FileUtils/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FileUtils/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleVim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleVim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TODOList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODOList/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODOList/src/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/src/TaskManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODOList/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../studentManage/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../studentManage/.idea/vcs.xml" beforeDir="false" />
     </list>
@@ -144,16 +147,15 @@
       <updated>1554732376258</updated>
       <workItem from="1554732381014" duration="2512000" />
       <workItem from="1554975835137" duration="6032000" />
-      <workItem from="1555046908519" duration="1275000" />
+      <workItem from="1555046908519" duration="1816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9819000" />
+    <option name="totallyTimeSpent" value="10360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.152349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
