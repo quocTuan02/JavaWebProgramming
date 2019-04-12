@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7940d5d8-f6b3-4819-a1fe-60a86f5025f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manager/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manager/src/EmployeeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manager/src/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manager/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manager/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manager/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manager/src/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manager/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product/src/sos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product/src/sos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-713">
+            <state relative-caret-position="1178">
               <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
             </state>
           </provider>
@@ -36,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="-399">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +62,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/msin.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/StudentManager.java" />
+        <option value="$PROJECT_DIR$/src/main.java" />
       </list>
     </option>
   </component>
@@ -87,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -105,6 +95,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,17 +150,17 @@
       <workItem from="1553221377268" duration="2630000" />
       <workItem from="1553415412829" duration="270000" />
       <workItem from="1553417082664" duration="2198000" />
+      <workItem from="1555082514005" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27646000" />
+    <option name="totallyTimeSpent" value="27685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15570469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15771812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,7 +231,7 @@
     <entry file="file://$PROJECT_DIR$/src/Manager/Sudent.java" />
     <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-713">
+        <state relative-caret-position="1178">
           <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
         </state>
       </provider>
@@ -254,8 +245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-399">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
