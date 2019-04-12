@@ -21,7 +21,6 @@ public class main {
         String str = "C:\\Users\\oOo\\IdeaProjects\\FileUtils\\srcee";
         FileUtils path = new FileUtils(str);
         int choice = 0;
-
         File f = new File(str);
 
         System.out.println(f.exists());
