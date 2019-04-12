@@ -5,6 +5,10 @@ import java.util.Comparator;
 public class StudentManager {
     ArrayList<Student> studentList = new ArrayList<Student>();
 
+    public void addStudent(String id,String name,double mark,String phone){
+        Student s= new Student(id,name,mark,phone);
+        studentList.add(s);
+    }
     public void addStudent(){
         InputStudent input = new InputStudent();
         System.out.print("ID > ");
