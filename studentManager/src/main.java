@@ -13,7 +13,7 @@ public class main {
         manager.addStudent("HV165","na",7,"0123505504");
 
         do {
-            System.out.println("-----MENU-----");
+            System.out.println("-------MENU-------");
             System.out.println("1. Nhap");
             System.out.println("2. Danh sach");
             System.out.println("3. Top 3");
