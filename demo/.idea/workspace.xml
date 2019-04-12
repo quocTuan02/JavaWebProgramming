@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8488f1ad-477a-4d8e-b82f-4733b0ce3c2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercises4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../student/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../student/src/main.java" afterDir="false" />
-    </list>
+    <list default="true" id="8488f1ad-477a-4d8e-b82f-4733b0ce3c2a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +79,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1150" />
+    <option name="x" value="40" />
+    <option name="y" value="25" />
+    <option name="width" value="715" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +109,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -119,8 +116,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555082550942" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../student" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555082986656" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Product" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -192,16 +189,18 @@
       <workItem from="1554877120457" duration="1707000" />
       <workItem from="1554975779916" duration="1258000" />
       <workItem from="1555082396573" duration="161000" />
+      <workItem from="1555082584720" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18888000" />
+    <option name="totallyTimeSpent" value="19161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10536913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
