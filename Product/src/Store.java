@@ -22,7 +22,7 @@ public class Store {
             System.out.println("success !!");
         } else System.out.println("Failure !!");
     }
-//- void   listProduct();   //   in   ra   danh   sách   sản   phẩm   dưới   dạng   bảng
+//   void   listProduct();   //   in   ra   danh   sách   sản   phẩm   dưới   dạng   bảng
     public void listProduct(){
 
         for (int i = 0; i <product.length ; i++) {
@@ -31,7 +31,7 @@ public class Store {
         }
     }
 
-//- void   search(String   name);   tìm   kiếm   thông   tin   sản   phẩm   theo   tên
+//  void   search(String   name);   tìm   kiếm   thông   tin   sản   phẩm   theo   tên
     public void search(String name){
         for (int i = 0; i <product.length ; i++) {
             if (product[i]==null) continue;

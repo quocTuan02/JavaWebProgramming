@@ -9,7 +9,5 @@ public class demo {
                 System.out.println(str);
             }
         }
-
-
     }
 }

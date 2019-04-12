@@ -6,8 +6,7 @@ public class main {
         Scanner scanner =new Scanner(System.in);
         int choice =0;
         do {
-
-            System.out.println("===========MENU==========");
+            System.out.println("============MENU===========");
             System.out.println("\t1. Add Product ");
             System.out.println("\t2. List Product ");
             System.out.println("\t3. Search");
