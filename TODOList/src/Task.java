@@ -38,7 +38,7 @@ public class Task {
         this.content = content;
     }
 
-    public boolean isDone() {
+    public boolean getDone() {
         return done;
     }
 

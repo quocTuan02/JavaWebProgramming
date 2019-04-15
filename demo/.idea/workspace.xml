@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8488f1ad-477a-4d8e-b82f-4733b0ce3c2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SimpleVim/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleVim/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FileUtils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FileUtils/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleVim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleVim/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TODOList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TODOList/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TODOList/src/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/src/TaskManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODOList/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/src/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="496">
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="740" />
@@ -119,7 +123,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555083941938" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555256837521" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TODOList" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -192,15 +196,15 @@
       <workItem from="1554877120457" duration="1707000" />
       <workItem from="1554975779916" duration="1258000" />
       <workItem from="1555082396573" duration="161000" />
-      <workItem from="1555082584720" duration="1355000" />
+      <workItem from="1555082584720" duration="1869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20243000" />
+    <option name="totallyTimeSpent" value="20757000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10671141" />
@@ -276,7 +280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="496">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
