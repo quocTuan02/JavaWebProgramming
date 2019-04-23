@@ -2,9 +2,11 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Scanner;
+import java.util.Vector;
 
 class ReadFile {
     public static void main(String[] args) throws IOException {
+
 //        Scanner scanner =
 //        new Scanner(new File("C:\\Users\\oOo\\Desktop\\demo.txt"));// open file to read
 //        // đọc toàn bộ dòng trong file

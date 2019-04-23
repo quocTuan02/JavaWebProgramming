@@ -11,6 +11,7 @@ public class WriterFile {
      */
     public static void main(String[] args) {
         File file = new File("C:\\Users\\oOo\\Desktop\\demo.txt");
+
         try (
                 PrintWriter pW = new PrintWriter(new BufferedWriter(new FileWriter(file)))
         ){

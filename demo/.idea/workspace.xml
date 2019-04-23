@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8488f1ad-477a-4d8e-b82f-4733b0ce3c2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../FileUtils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FileUtils/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleVim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleVim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleVim/src/SimpleVim.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleVim/src/SimpleVim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleVim/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleVim/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODOList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODOList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises11/src/Customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises11/src/Customer/CustomerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises7/Product/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises7/Product/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises7/Product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises7/Product/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/ReadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WriterFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriterFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +23,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/demo$demo.ic" NAME="demo Coverage Results" MODIFIED="1555753338395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -32,19 +44,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="217">
+              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,10 +56,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1767">
+              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WriterFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="14" column="90" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="90" />
+            <state relative-caret-position="403">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="docComment;class#Collection#0" />
+                <element signature="docComment;method#size#0;class#Collection#0" />
+                <element signature="docComment;method#isEmpty#0;class#Collection#0" />
+                <element signature="docComment;method#contains#0;class#Collection#0" />
+                <element signature="docComment;method#iterator#0;class#Collection#0" />
+                <element signature="docComment;method#toArray#0;class#Collection#0" />
+                <element signature="docComment;method#toArray#1;class#Collection#0" />
+                <element signature="docComment;method#add#0;class#Collection#0" />
+                <element signature="docComment;method#remove#0;class#Collection#0" />
+                <element signature="docComment;method#containsAll#0;class#Collection#0" />
+                <element signature="docComment;method#addAll#0;class#Collection#0" />
+                <element signature="docComment;method#removeAll#0;class#Collection#0" />
+                <element signature="docComment;method#removeIf#0;class#Collection#0" />
+                <element signature="method#removeIf#0;class#Collection#0" />
+                <element signature="docComment;method#retainAll#0;class#Collection#0" />
+                <element signature="docComment;method#clear#0;class#Collection#0" />
+                <element signature="docComment;method#equals#0;class#Collection#0" />
+                <element signature="docComment;method#hashCode#0;class#Collection#0" />
+                <element signature="docComment;method#spliterator#0;class#Collection#0" />
+                <element signature="docComment;method#stream#0;class#Collection#0" />
+                <element signature="docComment;method#parallelStream#0;class#Collection#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,16 +136,15 @@
         <option value="$PROJECT_DIR$/src/File.java" />
         <option value="$USER_HOME$/OneDrive - actvn.edu.vn/Java/KIT/src/main.java" />
         <option value="$PROJECT_DIR$/src/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/WriterFile.java" />
         <option value="$PROJECT_DIR$/src/demo.java" />
+        <option value="$PROJECT_DIR$/src/WriterFile.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="740" />
-    <option name="height" value="665" />
+    <option name="width" value="1150" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -98,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,14 +171,15 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555404933801" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TODOList" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555833979795" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -142,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadFile">
+  <component name="RunManager" selected="Application.demo">
     <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReadFile" />
       <module name="demo" />
@@ -166,9 +222,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.demo" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.WriterFile" />
-        <item itemvalue="Application.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -196,16 +252,18 @@
       <workItem from="1554975779916" duration="1258000" />
       <workItem from="1555082396573" duration="161000" />
       <workItem from="1555082584720" duration="1869000" />
+      <workItem from="1555747557931" duration="6487000" />
+      <workItem from="1555835356699" duration="1201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20757000" />
+    <option name="totallyTimeSpent" value="28445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09194631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -215,7 +273,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -224,7 +282,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,6 +293,7 @@
       <window_info anchor="right" id="Database" order="7" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,27 +321,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="docComment;class#Collection#0" />
+            <element signature="docComment;method#size#0;class#Collection#0" />
+            <element signature="docComment;method#isEmpty#0;class#Collection#0" />
+            <element signature="docComment;method#contains#0;class#Collection#0" />
+            <element signature="docComment;method#iterator#0;class#Collection#0" />
+            <element signature="docComment;method#toArray#0;class#Collection#0" />
+            <element signature="docComment;method#toArray#1;class#Collection#0" />
+            <element signature="docComment;method#add#0;class#Collection#0" />
+            <element signature="docComment;method#remove#0;class#Collection#0" />
+            <element signature="docComment;method#containsAll#0;class#Collection#0" />
+            <element signature="docComment;method#addAll#0;class#Collection#0" />
+            <element signature="docComment;method#removeAll#0;class#Collection#0" />
+            <element signature="docComment;method#removeIf#0;class#Collection#0" />
+            <element signature="method#removeIf#0;class#Collection#0" />
+            <element signature="docComment;method#retainAll#0;class#Collection#0" />
+            <element signature="docComment;method#clear#0;class#Collection#0" />
+            <element signature="docComment;method#equals#0;class#Collection#0" />
+            <element signature="docComment;method#hashCode#0;class#Collection#0" />
+            <element signature="docComment;method#spliterator#0;class#Collection#0" />
+            <element signature="docComment;method#stream#0;class#Collection#0" />
+            <element signature="docComment;method#parallelStream#0;class#Collection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="125">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#187#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WriterFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="14" column="90" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="403">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

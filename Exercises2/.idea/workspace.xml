@@ -6,8 +6,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a47704a1-3833-4743-a95a-b247f3dda0ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../studentManage/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../studentManage/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises11/src/Customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises11/src/Customer/CustomerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises11/src/Customer/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises7/Product/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises7/Product/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises7/Product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises7/Product/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/production/demo/ReadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/production/demo/demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/WriterFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/WriterFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +32,17 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BaiTap2$Bai3b.ic" NAME="Bai3b Coverage Results" MODIFIED="1547405119421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bai3a.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="132">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -33,17 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bai9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
+            <state relative-caret-position="99">
               <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UCLN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="924">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -82,9 +99,9 @@
         <option value="$PROJECT_DIR$/src/Bai4b.java" />
         <option value="$PROJECT_DIR$/src/Bai8.java" />
         <option value="$PROJECT_DIR$/src/Bai4a.java" />
-        <option value="$PROJECT_DIR$/src/Bai3a.java" />
         <option value="$PROJECT_DIR$/src/Bai9.java" />
         <option value="$PROJECT_DIR$/src/UCLN.java" />
+        <option value="$PROJECT_DIR$/src/Bai3a.java" />
       </list>
     </option>
   </component>
@@ -102,6 +119,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,8 +137,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,7 +148,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,7 +244,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13154362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +264,6 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -258,6 +274,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Codota" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,24 +405,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai3a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="99">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UCLN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="924">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai3a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>

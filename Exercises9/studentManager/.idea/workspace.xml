@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541f7684-c1e4-4282-aa66-2aa75fe6878c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercises11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercises11/src/Customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercises11/src/Customer/CustomerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercises2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercises7/Product/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises7/Product/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercises7/Product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises7/Product/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/out/production/demo/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/out/production/demo/ReadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/out/production/demo/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/out/production/demo/demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/WriterFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/WriterFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
@@ -40,23 +53,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="1488">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42997">
-              <caret line="1459" column="16" selection-start-line="1459" selection-start-column="16" selection-end-line="1459" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -71,7 +75,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/inputStudent.java" />
         <option value="$PROJECT_DIR$/src/InputStudent.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/StudentManager.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/StudentManager.java" />
       </list>
     </option>
   </component>
@@ -125,7 +129,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Android Logcat" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -170,17 +174,18 @@
       <workItem from="1554693223439" duration="1812000" />
       <workItem from="1555083420227" duration="217000" />
       <workItem from="1555083744194" duration="10000" />
+      <workItem from="1555749519128" duration="2855000" />
+      <workItem from="1555835706121" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16904000" />
+    <option name="totallyTimeSpent" value="20353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.02147651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.040939596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -273,6 +278,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21638">
+          <caret line="721" column="6" lean-forward="true" selection-start-line="721" selection-start-column="6" selection-end-line="721" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="482" column="19" selection-start-line="482" selection-start-column="19" selection-end-line="482" selection-end-column="19" />
+          <folding>
+            <element signature="e#26007#26008#0" expanded="true" />
+            <element signature="e#26069#26070#0" expanded="true" />
+            <element signature="e#26903#26904#0" expanded="true" />
+            <element signature="e#26977#26978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="234" column="10" selection-start-line="234" selection-start-column="10" selection-end-line="234" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -296,18 +328,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="1488">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42997">
-          <caret line="1459" column="16" selection-start-line="1459" selection-start-column="16" selection-end-line="1459" selection-end-column="16" />
         </state>
       </provider>
     </entry>
