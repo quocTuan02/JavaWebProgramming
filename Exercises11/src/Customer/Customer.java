@@ -8,7 +8,7 @@ public class Customer implements Serializable {
     private String name;
     private String address;
     private int age;
-    private Scanner scanner =new Scanner(System.in);
+    private static   Scanner scanner =new Scanner(System.in);
 
     public Customer() {
     }

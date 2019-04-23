@@ -14,68 +14,6 @@ public class CustomerManager {
         list = new ArrayList<Customer>();
     }
 
-//
-//    private Customer obj = new Customer();
-//    public void setId() {
-//        try {
-//            System.out.print("ID: ");
-//            int id = Integer.parseInt(scanner.nextLine());
-//            obj.setId(id);
-//        } catch (Exception e) {
-//            System.out.printf("lỗi");
-//            //e.printStackTrace();
-//            setId();
-//        }
-//    }
-//
-//
-//
-//    public void setName() {
-//        try {
-//            System.out.print("Name: ");
-//            String name = scanner.nextLine();
-//            obj.setName(name);
-//        } catch (Exception e) {
-//            System.out.printf("lỗi");
-//            setName();
-//        }
-//    }
-//
-//    public void setAddress() {
-//        try {
-//            System.out.print("Address: ");
-//            String address = scanner.nextLine();
-//            obj.setAddress(address);
-//        } catch (Exception e) {
-//            System.out.printf("lỗi");
-//            setAddress();
-//        }
-//    }
-//
-//    public void setAge() {
-//        try {
-//            System.out.print("Age: ");
-//            int age = Integer.parseInt(scanner.nextLine());
-//            obj.setAge(age);
-//        } catch (Exception e) {
-//            System.out.println("lỗi");
-//            //e.printStackTrace();
-//            setAge();
-//        }
-//    }
-//
-//
-
-
-
-
-
-
-
-
-
-
-
 
 
     // load dữ liệu từ file
@@ -95,15 +33,17 @@ public class CustomerManager {
 
     //Nhập dữ liệu
     public void add() {
-//        System.out.print("ID: ");
-//        int id = Integer.parseInt(scanner.nextLine());
-//        System.out.print("Name: ");
-//        String name = scanner.nextLine();
-//        System.out.print("Address: ");
-//        String address = scanner.nextLine();
-//        System.out.print("Age: ");
-//        int age = Integer.parseInt(scanner.nextLine());
 
+ /*       System.out.print("ID: ");
+        int id = Integer.parseInt(scanner.nextLine());
+        System.out.print("Name: ");
+        String name = scanner.nextLine();
+        System.out.print("Address: ");
+        String address = scanner.nextLine();
+        System.out.print("Age: ");
+        int age = Integer.parseInt(scanner.nextLine());
+        Customer kh = new Customer(id,name,address,age);
+*/
         Customer kh = new Customer();
         kh.setId();
         kh.setName();

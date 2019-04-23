@@ -5,10 +5,6 @@ import java.util.Scanner;
 
 public class main {
       public static void main(String[] args) {
-//
-//
-//
-//
 //        CustomerManager manager = new CustomerManager();
 //
 //        System.out.println("1");
