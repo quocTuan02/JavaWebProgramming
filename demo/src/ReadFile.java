@@ -1,11 +1,10 @@
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.Vector;
 
 class ReadFile {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
 
 //        Scanner scanner =
 //        new Scanner(new File("C:\\Users\\oOo\\Desktop\\demo.txt"));// open file to read
@@ -16,6 +15,12 @@ class ReadFile {
 //        }
 //        scanner.close();//đóng file sau khi đọc
 
+        try {
+            ObjectInputStream ois = new ObjectInputStream(new FileInputStream("lim.dat"));
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         try (Scanner scanner = new Scanner(new File("C:\\Users\\oOo\\Desktop\\demo.txt"))){
             while (scanner.hasNextLine()){

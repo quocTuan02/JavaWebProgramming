@@ -28,6 +28,17 @@ public class Student {
             this.setGroup(4);
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", mark=" + mark +
+                ", group=" + group +
+                ", phone='" + phone + '\'' +
+                '}';
+    }
+
     public String getId() {
         return id;
     }

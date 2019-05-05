@@ -5,11 +5,12 @@ import java.util.Comparator;
 public class StudentManager {
     ArrayList<Student> studentList = new ArrayList<Student>();
 
-    public void addStudent(String id,String name,double mark,String phone){
-        Student s= new Student(id,name,mark,phone);
+    public void addStudent(String id, String name, double mark, String phone) {
+        Student s = new Student(id, name, mark, phone);
         studentList.add(s);
     }
-    public void addStudent(){
+
+    public void addStudent() {
         InputStudent input = new InputStudent();
         System.out.print("ID > ");
         String id = input.inputId();
@@ -20,9 +21,11 @@ public class StudentManager {
         System.out.print("Phone > ");
         String phone = input.inputPhone();
 
-        Student s= new Student(id,name,mark,phone);
-        studentList.add(s);
+        Student s = new Student(id, name, mark, phone);
+        if (studentList.add(s)) System.out.println("success !");
+        else System.out.println("fail !");
     }
+
     public void list() {
         System.out.println("---DANH SACH---");
         for (Student hs : studentList) {
@@ -31,17 +34,14 @@ public class StudentManager {
     }
 
 
-
-
-
-   public void showTop(int top) {
+    public void showTop(int top) {
 
         for (int i = 0; i < this.studentList.size() - 1; i++) {
-            for (int j = i + 1; j < this.studentList.size(); j++){
+            for (int j = i + 1; j < this.studentList.size(); j++) {
                 if (studentList.get(i).getMark() < studentList.get(j).getMark()) {
                     Student temp = studentList.get(i);
-                    studentList.set(i,studentList.get(j));
-                    studentList.set(j,temp);
+                    studentList.set(i, studentList.get(j));
+                    studentList.set(j, temp);
                 }
             }
         }
