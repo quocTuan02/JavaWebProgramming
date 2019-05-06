@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278e464b-a294-4515-b4cc-e4986672367e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercises11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises7/Product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises7/Product/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/out/production/studentManager/InputStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/out/production/studentManager/InputStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/out/production/studentManager/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/out/production/studentManager/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/out/production/studentManager/StudentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/out/production/studentManager/StudentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/out/production/studentManager/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/out/production/studentManager/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/src/InputStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/src/InputStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/src/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/src/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises12/menu-en.locale" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises12/menu-vi.locale" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercises12/src/Multilingual_Menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises12/out/production/Exercises12/StudentManager/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises12/out/production/Exercises12/StudentManager/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/META-INF/demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/production/demo/ReadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/WriterFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/production/demo/WriterFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/production/demo/demo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="33">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/student/src/StudentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            <state relative-caret-position="1320">
+              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -77,6 +64,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,8 +93,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,7 +137,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16510066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -185,9 +172,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/student/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/student/out/production/student/main.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -206,18 +190,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="33">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/student/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/student/src/StudentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="1320">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
         </state>
       </provider>
     </entry>

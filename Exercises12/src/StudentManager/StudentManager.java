@@ -25,16 +25,7 @@ public class StudentManager {
     }
 
     //thêm mới
-    public boolean add() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Name: ");
-        String name = scanner.nextLine();
-        System.out.print("Email: ");
-        String email = scanner.nextLine();
-        System.out.printf("RollNumber: ");
-        String rollNumber = scanner.nextLine();
-
-        Student student = new Student(name, email, rollNumber);
+    public boolean add(Student student) {
         return list.add(student);
     }
 
