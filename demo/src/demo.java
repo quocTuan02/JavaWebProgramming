@@ -1,8 +1,39 @@
 import java.io.File;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.*;
 
 public class demo {
     public static void main(String[] args) {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            String connStr = "jdbc:mysql://localhost:3306/qlthuvien";
+            String user = "root";
+            String password = "vannhucu";
+            Connection conn = DriverManager.getConnection(connStr,user,password);
+
+            if (conn!= null){
+                System.out.printf("ket noi thanh cong");
+            }else System.out.printf("that bai");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+/*
+        ArrayList arr = new ArrayList<String>();
+
+        arr.add(5);
+        arr.add(9);
+        arr.remove(1);
+
+        String pathname= "C:\\Users\\oOo\\CLionProjects\\untitled1";
+        File f = new File(pathname);
+       f.delete();
+        /*
         ArrayList<Ojb> list = new ArrayList<>();
         list.add(new Ojb(122, "Tùng", "linhsk3@xmail.com", 19));
         list.add(new Ojb(125, "Linh", "linhsk4@xmail.com", 17));
@@ -22,6 +53,9 @@ public class demo {
                     "| ", obj.getId(), "| ", obj.getName(), "| ", obj.getEmail(), "| ", obj.getAge(), "|");
             System.out.println("+========+===========+===============================+========+");
         }
+
+
+         */
 /*
        Set<String> hs = new HashSet<>();
         hs.add("l");
