@@ -1,7 +1,5 @@
 import java.io.File;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.*;
 
 public class demo {
@@ -11,11 +9,24 @@ public class demo {
             String connStr = "jdbc:mysql://localhost:3306/qlthuvien";
             String user = "root";
             String password = "vannhucu";
-            Connection conn = DriverManager.getConnection(connStr,user,password);
+            Connection conn = DriverManager.getConnection(connStr, user, password);
 
-            if (conn!= null){
-                System.out.printf("ket noi thanh cong");
-            }else System.out.printf("that bai");
+            if (conn != null) {
+                System.out.println("ket noi thanh cong");
+                System.out.println("==================");
+                //sau khi ket noi thành công
+                Statement stmt = conn.createStatement();
+                //insert du lieu
+                PreparedStatement pstmt = conn.prepareStatement("SELECT * FROM sach");
+
+
+//                ResultSet rs = stmt.executeQuery("SELECT * FROM sach");
+
+//                while (rs.next()){
+//                    System.out.printf("\n%-10s\t%s",rs.getString("ten"),rs.getString(3));
+//                }
+
+            } else System.out.printf("that bai");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
