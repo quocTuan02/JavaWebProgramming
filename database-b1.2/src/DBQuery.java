@@ -3,6 +3,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Scanner;
 
 public class DBQuery {
     private DBConnect dbConnect;
@@ -86,20 +87,33 @@ public class DBQuery {
     /**
      * Cho biết đọc giả tên "name" mượn sách bao nhiêu lần
      *
-     * @param name tên đọc giả
+     * @param //name tên đọc giả
      * @return
      * @throws SQLException
      */
-    public ResultSet get5(String name) throws SQLException {
-        String sql="select count(*) as 'So lan' from PHIEUMUON as pm\n" +
+    public ResultSet get5( String name ) throws SQLException {
+        String sql = "select count(*) as 'So lan' from PHIEUMUON as pm\n" +
                 "join DOCGIA as dg on pm.sothe = dg.sothe\n" +
                 "join SACH as s on pm.masach = s.masach\n" +
-                "where dg.ten = ?";
+                "where dg.ten = ?;";
         PreparedStatement pstmt = conn.prepareStatement(sql);
-        pstmt.setString(1,name);
+        pstmt.setString(1, name);
 
         return pstmt.executeQuery();
     }
 
+    /**
+     * Danh sách tên, số thẻ, các độc giả chưa trả sách
+     *
+     * @return
+     * @throws SQLException
+     */
+    public ResultSet get6() throws SQLException {
+        String sql = "select d.* from PHIEUMUON p\n" +
+                "join DOCGIA d on d.sothe = p.sothe\n" +
+                "where p.ngaytra is null";
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+        return pstmt.executeQuery();
+    }
 
 }
