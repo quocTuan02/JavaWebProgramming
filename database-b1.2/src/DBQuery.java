@@ -11,7 +11,7 @@ public class DBQuery {
 
     public DBQuery() throws SQLException, ClassNotFoundException {
         dbConnect = new DBConnect();
-        conn = dbConnect.getConnct();
+        conn = dbConnect.getConnct("qlthuvien");
     }
 
     /**
@@ -87,7 +87,7 @@ public class DBQuery {
     /**
      * Cho biết đọc giả tên "name" mượn sách bao nhiêu lần
      *
-     * @param //name tên đọc giả
+     * @param name tên đọc giả
      * @return
      * @throws SQLException
      */
