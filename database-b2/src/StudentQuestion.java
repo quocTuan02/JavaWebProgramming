@@ -14,7 +14,7 @@ public class StudentQuestion {
     public int addAnswer(Student student, Question question, String answer) throws SQLException, ClassNotFoundException {
         String sql;
         PreparedStatement pstmt;
-        if (details(student).next()) {
+        if (details(student,question).next()) {
             sql = "UPDATE `tracnghiem`.`student_questions` SET `student_id` = ?, `question_id` = ?, `answer` = ? \n" +
                     "WHERE (`student_id` = ?) and (`question_id` = ?);";
             pstmt = conn.prepareStatement(sql);
@@ -36,9 +36,19 @@ public class StudentQuestion {
         return pstmt.executeUpdate();
     }
 
+    public ResultSet details(Student student, Question question) throws SQLException {
+        String sql = "SELECT * FROM tracnghiem.student_questions\n" +
+                "WHERE (`student_id` = ?) and (`question_id` = ?);";
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+        pstmt.setInt(1, student.getId());
+        pstmt.setInt(2,question.getId());
+
+        return pstmt.executeQuery();
+    }
+
     public ResultSet details(Student student) throws SQLException {
         String sql = "SELECT * FROM tracnghiem.student_questions\n" +
-                "where student_id = ?;";
+                "WHERE (`student_id` = ?) ;";
         PreparedStatement pstmt = conn.prepareStatement(sql);
         pstmt.setInt(1, student.getId());
 
