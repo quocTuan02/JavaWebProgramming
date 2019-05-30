@@ -36,41 +36,27 @@ public class QuestionManager {
         return this.QuestionList;
     }
 
-    public boolean checkAnswer(Question question, String answer) {
-        if (answer(question, answer).equalsIgnoreCase(question.getCorect())
-                || answer.equalsIgnoreCase(question.getCorect())) {
-            return true;
+    public void printQuestion(Student student) throws SQLException, ClassNotFoundException {
+        Scanner scanner = new Scanner(System.in);
+        StudentQuestion sq = new StudentQuestion();
+        ArrayList<Question> list = getList();
+        Question question;
+        String answer;
+        int totalQuestions = list.size();
+        int number = 0, countCorr = 0;
+        for (int i = 0; i < totalQuestions; i++) {
+            question = list.get(i);
+            System.out.printf("Question %d/%d\n", ++number, totalQuestions);
+            System.out.println(question);
+            System.out.printf("Your Answer: ");
+            answer = scanner.nextLine();
+            sq.addAnswer(student, question, answer); // thêm câu trả lời vào Database
+            if (sq.checkAnswer(question, answer)) {
+                countCorr++;
+            }
         }
-        return false;
-    }
-
-    /**
-     * @param question câu hỏi
-     * @param answer   câu trả lời ngắn: A or B or C or D
-     * @return câu trả trả lời Full
-     */
-    public String answer(Question question, String answer) {
-        if (answer.equalsIgnoreCase("a") ||
-                answer.equalsIgnoreCase(question.getAnswerA())) {
-            return question.getAnswerA();
-        }
-
-        if (answer.equalsIgnoreCase("b") ||
-                answer.equalsIgnoreCase(question.getAnswerB())) {
-            return question.getAnswerB();
-        }
-
-        if (answer.equalsIgnoreCase("c") ||
-                answer.equalsIgnoreCase(question.getAnswerC())) {
-            return question.getAnswerC();
-        }
-
-        if (answer.equalsIgnoreCase("d") ||
-                answer.equalsIgnoreCase(question.getAnswerD())) {
-            return question.getAnswerD();
-        }
-
-        return " ";
+        System.out.println("\nCongratulation !");
+        System.out.printf("Your result: %d/%d", countCorr, totalQuestions);
     }
 
 
