@@ -11,15 +11,26 @@ public class StudentManager {
         this.conn = dbConnect.getConn();
     }
 
-    public boolean login(String email,String password) throws SQLException {
+    public Student login(String email, String password) throws SQLException {
         String sql = "select * from students where email = ? and pass = ?;";
-        PreparedStatement  pstmt = this.conn.prepareStatement(sql);
-        pstmt.setString(1,email);
-        pstmt.setString(2,password);
+        PreparedStatement pstmt = this.conn.prepareStatement(sql);
+        pstmt.setString(1, email);
+        pstmt.setString(2, password);
 
-        ResultSet rs = pstmt.executeQuery();;
-
-        return rs.next();
+        ResultSet rs = pstmt.executeQuery();
+        Student student = null;
+        if (rs.next()) {
+            student = new Student(rs.getInt("id"),
+                    rs.getString("name"),
+                    rs.getString("email"),
+                    rs.getString("pass")
+            );
+        }
+        return student;
     }
+
+
+
+
 
 }

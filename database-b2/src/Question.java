@@ -75,4 +75,48 @@ public class Question {
     public void setCorect(String corect) {
         this.corect = corect;
     }
+
+    @Override
+    public String toString() {
+        String question = "\n" + this.contens +
+                "\n\tA. " + this.answerA +
+                "\n\tB. " + this.answerB +
+                "\n\tC. " + this.answerC +
+                "\n\tD. " + this.answerD;
+
+        return question;
+    }
+
+    public String answer(String answer) {
+        String question = null;
+        if (answer.equals(this.answerA)) {
+            question = "\n" + this.contens +
+                    "\n\t[A]. " + this.answerA +
+                    "\n\tB. " + this.answerB +
+                    "\n\tC. " + this.answerC +
+                    "\n\tD. " + this.answerD;
+        }
+        if (answer.equals(this.answerB)) {
+            question = "\n" + this.contens +
+                    "\n\tA. " + this.answerA +
+                    "\n\t[B]. " + this.answerB +
+                    "\n\tC. " + this.answerC +
+                    "\n\tD. " + this.answerD;
+        }
+        if (answer.equals(this.answerC)) {
+            question = "\n" + this.contens +
+                    "\n\tA. " + this.answerA +
+                    "\n\tB. " + this.answerB +
+                    "\n\t[C]. " + this.answerC +
+                    "\n\tD. " + this.answerD;
+        }
+        if (answer.equals(this.answerD)) {
+            question = "\n" + this.contens +
+                    "\n\tA. " + this.answerA +
+                    "\n\tB. " + this.answerB +
+                    "\n\tC. " + this.answerC +
+                    "\n\t[D]. " + this.answerD;
+        }
+        return question;
+    }
 }
