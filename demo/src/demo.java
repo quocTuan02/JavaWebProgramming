@@ -33,7 +33,6 @@ public class demo {
             e.printStackTrace();
         }
 
-
 /*
         ArrayList arr = new ArrayList<String>();
 

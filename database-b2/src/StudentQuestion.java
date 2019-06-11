@@ -70,7 +70,7 @@ public class StudentQuestion {
             question = list.get(questionId - 1);
             System.out.printf("Question %d/%d", questionId, list.size());
             System.out.println(" - " + checkAnswer(question, answer));
-            System.out.println(question.answer(answer));
+            System.out.println(question.answer(question.getContens()));
         }
     }
 

@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <noscript><meta http-equiv="refresh" content="0;url=https://wargame.junookyo.xyz/?nojs=true"></noscript>
+    <meta name="author" content="Juno_okyo">
+    <meta name="copyright" content="J2TEAM">
+    <meta name="csrf_name" content="csrf_test_name">
+    <meta name="csrf_hash" content="dac94770e3d31ccce8c343e0e31cb0e4">
+    <title>Level 16 – War Game – J2TEAM Community</title>
+    <base href="https://wargame.junookyo.xyz/">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="icon" href="https://junookyo.blogspot.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=vietnamese">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><style>.navbar, .container {display: none !important;}</style></noscript>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://wargame.junookyo.xyz/">J2TEAM Community</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="level/16">Level 16 <span class="sr-only">(current)</span></a></li>
+                <li><a href="ranking">Bảng xếp hạng</a></li>
+                <li><a href="subscribe">Theo dõi</a></li>
+                <li><a href="logout">Đăng xuất</a></li>
+            </ul>
+            <p class="navbar-text navbar-right">Xin chào, <strong><a href="https://www.facebook.com/app_scoped_user_id/515113892350841" class="navbar-link" target="_blank">Khắc Gia</a></strong>!</p>
+        </div>
+    </div>
+</nav>
+
+<div class="container w6">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Giới thiệu cách chơi</h3>
+                </div>
+                <div class="panel-body">
+                    Nhiệm vụ của bạn là sử dụng mọi kỹ năng và thông tin mà bạn có để tìm ra <strong>mật khẩu</strong> được ẩn giấu đâu đó trong trang web này hoặc một nơi nào đó mà trang này sẽ dẫn bạn tới.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="j2team-wargame-form">
+        <div class="col-sm-12">
+            <div class="panel panel-primary animated shake">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Level 16</h3>
+                </div>
+                <div class="panel-body">
+                    <form action="level/submit/16" method="POST" role="form" id="form">
+                        <legend>Hãy nhập mật khẩu cho Level hiện tại</legend>
+
+                        <div class="form-group">
+                            <label for="password" class="hidden">Mật khẩu</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></div>
+                                <input type="text" class="form-control" name="password" id="password" placeholder="Vừng ơi mở ra..." autocomplete="off" autofocus required>
+                                <input type="hidden" name="csrf_test_name" value="dac94770e3d31ccce8c343e0e31cb0e4">
+                                <span class="input-group-btn">
+                      <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Kiểm tra</button>
+                    </span>
+                            </div>
+                        </div>
+                    </form>
+
+                    <p>Nếu thực sự không thể tìm ra phương hướng, bạn có thể <a href="#modal-hint" data-toggle="modal">xem gợi ý</a>!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Yêu cầu</h3>
+                </div>
+                <div class="panel-body" style="padding: 0;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/pU-HIDH8otE?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-hint">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Gợi ý</h4>
+            </div>
+            <div class="modal-body">
+                Gợi ý nằm trong thông tin của video.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/js/ajax.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45794712-24"></script>
+<script src="assets/js/juno_okyo.js"></script>
+</body>
+</html>
