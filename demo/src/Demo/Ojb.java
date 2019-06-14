@@ -1,3 +1,5 @@
+package Demo;
+
 public class Ojb {
     private int id;
     private String name;
@@ -46,7 +48,7 @@ public class Ojb {
 
     @Override
     public String toString() {
-        return "Ojb{" +
+        return "Demo.Ojb{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +

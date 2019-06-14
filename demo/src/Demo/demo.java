@@ -1,3 +1,5 @@
+package Demo;
+
 import java.io.File;
 import java.sql.*;
 import java.util.*;
@@ -44,13 +46,13 @@ public class demo {
         File f = new File(pathname);
        f.delete();
         /*
-        ArrayList<Ojb> list = new ArrayList<>();
-        list.add(new Ojb(122, "Tùng", "linhsk3@xmail.com", 19));
-        list.add(new Ojb(125, "Linh", "linhsk4@xmail.com", 17));
-        list.add(new Ojb(155, "Hương", "linhsk36@xmail.com", 19));
-        list.add(new Ojb(124, "Hoa", "linhsk38@xmail.com", 18));
-        list.add(new Ojb(133, "Tuấn", "linhsk34@xmail.com", 19));
-        list.add(new Ojb(105, "Hải", "linhsk39@xmail.com", 20));
+        ArrayList<Demo.Ojb> list = new ArrayList<>();
+        list.add(new Demo.Ojb(122, "Tùng", "linhsk3@xmail.com", 19));
+        list.add(new Demo.Ojb(125, "Linh", "linhsk4@xmail.com", 17));
+        list.add(new Demo.Ojb(155, "Hương", "linhsk36@xmail.com", 19));
+        list.add(new Demo.Ojb(124, "Hoa", "linhsk38@xmail.com", 18));
+        list.add(new Demo.Ojb(133, "Tuấn", "linhsk34@xmail.com", 19));
+        list.add(new Demo.Ojb(105, "Hải", "linhsk39@xmail.com", 20));
 
 
         System.out.println("+========+===========+===============================+========+");
@@ -58,7 +60,7 @@ public class demo {
                 "| ", "ID", "| ", "NAME", "| ", "EMAIL", "| ", " AGE", "|");
         System.out.println("+========+===========+===============================+========+");
 
-        for (Ojb obj : list) {
+        for (Demo.Ojb obj : list) {
             System.out.printf("%s%-7d%s%-10s%s%-30s%s%-7d%s\n",
                     "| ", obj.getId(), "| ", obj.getName(), "| ", obj.getEmail(), "| ", obj.getAge(), "|");
             System.out.println("+========+===========+===============================+========+");

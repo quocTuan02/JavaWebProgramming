@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541f7684-c1e4-4282-aa66-2aa75fe6878c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Exercises11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studentManager/InputStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studentManager/InputStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studentManager/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studentManager/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studentManager/StudentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studentManager/StudentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studentManager/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studentManager/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/Ojb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/Demo/Ojb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/Demo/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/WriterFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/Demo/WriterFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/Demo/demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -48,7 +41,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/InputStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
+            <state relative-caret-position="587">
               <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
             </state>
           </provider>
@@ -117,9 +110,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1150" />
-    <option name="height" value="1000" />
+    <option name="x" value="-4" />
+    <option name="y" value="423" />
+    <option name="width" value="1928" />
+    <option name="height" value="613" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -127,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +137,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -152,7 +146,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554713301401" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../untitled1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -213,17 +207,18 @@
       <workItem from="1555835706121" duration="594000" />
       <workItem from="1556097238915" duration="5773000" />
       <workItem from="1556675310023" duration="47000" />
+      <workItem from="1560335287428" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26173000" />
+    <option name="totallyTimeSpent" value="26282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.04032258" />
-      <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" visible="true" weight="0.04032258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.2557047" />
+      <window_info id="Structure" order="1" sideWeight="0.5042493" side_tool="true" visible="true" weight="0.2557047" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -372,7 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InputStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
+        <state relative-caret-position="587">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
         </state>
       </provider>
