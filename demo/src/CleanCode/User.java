@@ -25,6 +25,8 @@ package CleanCode;
  */
 
 
+import java.util.ArrayList;
+
 //BAD
 public class User {
     private String name;
@@ -35,42 +37,5 @@ public class User {
         return this.membersince;
     }
 }
-
-
-//GOOD
-class Task {
-
-    public static void main(String[] args) {
-int taskEstimate[]=; int realdays
-
-
-        //GOOD
-        final int WORK_DAYS_PER_WEEK = 5;
-        final int NUMBER_OF_TASKS = 34;
-        int realDaysPerIdealDay = 4;
-        int sum = 0;
-        for (int j = 0; j < NUMBER_OF_TASKS; j++) {
-            int realTaskDays = taskEstimate[j] * realDaysPerIdealDay;
-            int realTaskWeeks = (realdays / WORK_DAYS_PER_WEEK);
-            sum += realTaskWeeks;
-        }
-
-        double s = 0, t[ 5];
-
-        //BAG
-        for (int j = 0; j < 34; j++) {
-            s += (t[j] * 4) / 5;
-        }
-
-    }
-
-
-}
-
-
-
-
-
-
 
 

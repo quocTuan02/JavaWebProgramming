@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8488f1ad-477a-4d8e-b82f-4733b0ce3c2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML &amp; CSS/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML &amp; CSS/html-b2/ex16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/html.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/html-b1/ex4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML &amp; CSS/html-b1/ex4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ojb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Ojb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriterFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/WriterFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,24 +42,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CleanCode/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1417#1418#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CleanCode/note">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="646">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -88,16 +88,18 @@
         <option value="$PROJECT_DIR$/src/CleanCode/StudentManager/StudentManager.java" />
         <option value="$PROJECT_DIR$/src/StudentManager/main.java" />
         <option value="$PROJECT_DIR$/src/CleanCode/demo.java" />
-        <option value="$PROJECT_DIR$/src/CleanCode/User.java" />
         <option value="$PROJECT_DIR$/src/CleanCode/note" />
+        <option value="$PROJECT_DIR$/src/CleanCode/User.java" />
+        <option value="$PROJECT_DIR$/../../demo/C/source/main.c" />
+        <option value="$PROJECT_DIR$/src/bbbb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="423" />
-    <option name="width" value="1928" />
-    <option name="height" value="613" />
+    <option name="x" value="-5" />
+    <option name="y" value="421" />
+    <option name="width" value="1930" />
+    <option name="height" value="615" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -107,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,18 +122,11 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CleanCode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +134,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555833979795" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercises9/studentManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../database-b2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -237,16 +233,18 @@
       <workItem from="1558171612259" duration="6846000" />
       <workItem from="1560251842240" duration="7000" />
       <workItem from="1560331712491" duration="13170000" />
+      <workItem from="1560668972946" duration="2571000" />
+      <workItem from="1560705536697" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62403000" />
+    <option name="totallyTimeSpent" value="65008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17607526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18120806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -448,21 +446,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bbbb" />
+    <entry file="file://$PROJECT_DIR$/../../demo/C/source/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CleanCode/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CleanCode/note">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="646">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>

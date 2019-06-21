@@ -1,0 +1,28 @@
+h1 {
+    color: #ff9900;
+    font-size: 4em;
+    font-weight: 200
+}
+
+div {
+    color: #ff0066;
+    font-size: 2em;
+    font-weight: 300
+}
+.content{
+    color: #00ff00;
+
+}
+
+.quote{
+    color: red;
+    font-style: italic;
+}
+
+#header{
+    font-size: 2.5em;
+}
+#main{
+    border: 1px solid #000;
+    margin-left: 100px;
+}
