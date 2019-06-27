@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+    <style>
+        .btn {
+            width: 40px;
+        }
+
+        #container {
+            width: 456px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <h1>Javascript căm bản</h1>
+    <h2>Máy tính đơn giản</h2>
+
+    <label>Số thứ 1:</label>
+    <input id="number1" type="number"/>
+    <input class="btn" type="button" onclick="cal('+')" value="+">
+    <input class="btn" type="button" onclick="cal('-')" value="-">
+
+    <br/>
+
+    <label>Số thứ 2:</label>
+    <input id="number2" type="number"/>
+    <input class="btn" type="button" onclick="cal('*')" value="*"/>
+    <input class="btn" type="button" onclick="cal('/')" value="/"/>
+
+    <br/>
+
+    <label>Kết quả : </label>
+    <input id="resuli" type="text" readonly value="NaN">
+
+</div>
+
+<script>
+    function cal(key) {
+        var a = parseFloat(document.getElementById("number1").value);
+        var b = parseFloat(document.getElementById("number2").value);
+        var rs = 0;
+        if (a==null || b == null) return null;
+
+        switch (key) {
+            case '+': {
+                rs = a + b;
+                break;
+            }
+            case '-': {
+                rs = a - b;
+                break;
+            }
+            case '*': {
+                rs = a * b;
+                break;
+            }
+            case '/': {
+                rs = a / b;
+                break;
+            }
+        }
+        document.getElementById("resuli").value = rs;
+    }
+</script>
+
+
+</body>
+</html>
