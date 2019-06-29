@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90951dd-96b2-4e7f-9f42-a899ae2d4590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HTML &amp; CSS/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HTML-CSS-JS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculate/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculate/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculate/js/cal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculate/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML &amp; CSS/demo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +25,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculate/test.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Login/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2760">
-              <caret line="92" lean-forward="true" selection-end-line="101" />
+            <state relative-caret-position="3330">
+              <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -46,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculate/js/cal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1894">
-              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="1890">
+              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -55,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculate/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="65" column="7" lean-forward="true" selection-start-line="20" selection-end-line="65" selection-end-column="7" />
+            <state relative-caret-position="600">
+              <caret line="65" column="7" selection-start-line="20" selection-end-line="65" selection-end-column="7" />
               <folding>
                 <element signature="n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" />
               </folding>
@@ -89,10 +85,11 @@
         <option value="$PROJECT_DIR$/Calculate/index.html" />
         <option value="$PROJECT_DIR$/Calculate/js/cal.js" />
         <option value="$PROJECT_DIR$/Calculate/test.html" />
+        <option value="$PROJECT_DIR$/Login/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1930" />
     <option name="height" value="665" />
@@ -103,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,11 +119,15 @@
               <item name="Calculate" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HTML-CSS-JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML-CSS-JS" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,11 +167,12 @@
       <updated>1561313328240</updated>
       <workItem from="1561313329379" duration="8818000" />
       <workItem from="1561450986252" duration="5644000" />
+      <workItem from="1561791122654" duration="311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14462000" />
+    <option name="totallyTimeSpent" value="14773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -205,9 +208,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculate/test">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculate/test" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/legacy.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -224,15 +225,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculate/js/cal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1894">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="1890">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculate/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="65" column="7" lean-forward="true" selection-start-line="20" selection-end-line="65" selection-end-column="7" />
+        <state relative-caret-position="600">
+          <caret line="65" column="7" selection-start-line="20" selection-end-line="65" selection-end-column="7" />
           <folding>
             <element signature="n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" />
           </folding>
@@ -240,9 +241,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculate/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="92" lean-forward="true" selection-end-line="101" />
+        <state relative-caret-position="3330">
+          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
         </state>
       </provider>
     </entry>

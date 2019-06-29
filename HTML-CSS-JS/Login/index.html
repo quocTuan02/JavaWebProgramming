@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="">
+<div class="container-lg p-responsive py-5">
+
+
+    <div class="d-md-flex flex-justify-between gutter-md-spacious ">
+        <div class="col-sm-8 col-md-6 setup-form-container">
+            <noscript>
+                <p class="flash flash-error">GitHub requires JavaScript enabled during sign up, for our signup captcha.
+                    Please enable JavaScript during sign up.</p>
+            </noscript>
+
+
+            <form autocomplete="off" id="signup-form" class="setup-form js-signup-form js-octocaptcha-parent"
+                  action="/join" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input
+                    type="hidden" name="authenticity_token"
+                    value="7aWfEtZPJQVK6EfE79JDv+rpLrmRV87dl6xWPFJsyYMGhQZmd3errQFS3j5z6v1nAzWv2oObxVAQC59O4azXQw==">
+
+                <h2 class="f2-light mb-1">
+                    Create your personal account
+                </h2>
+
+                <auto-check src="/signup_check/username?suggest_usernames=true"
+                            csrf="giQ7tsUDee4S0rLvHtTRPq4sWTKhMPSFCkYu2DPa/wolT8B9QoU8iG8+yoT3r5AKJGMcmsJChgwf7WVtix4BGA=="
+                            required="">
+                    <dl class="form-group required">
+                        <dt class="input-label"><label name="user[login]" autocapitalize="off" autofocus="autofocus"
+                                                       required="required" for="user_login">Username</label></dt>
+                        <dd><input aria-describedby="description_a34db03da3b9" name="user[login]" autocapitalize="off"
+                                   autofocus="autofocus" required="required" class="form-control" type="text"
+                                   id="user_login" autocomplete="off" spellcheck="false"></dd>
+                    </dl>
+                </auto-check>
+
+                <auto-check src="/signup_check/email"
+                            csrf="qGGokr2SmwNypnpsSVSOQOywGdZtePWpUvomz4jcTH9hUv+syJsZhBjyV3DQgOC2EaLODHXCF2USPOz7xrnxbQ=="
+                            required="">
+                    <dl class="form-group required">
+                        <dt class="input-label"><label name="user[email]" autocapitalize="off" required="required"
+                                                       for="user_email">Email address</label></dt>
+                        <dd><input aria-describedby="description_5856669dd8ea" name="user[email]" autocapitalize="off"
+                                   required="required" class="form-control" type="text" id="user_email"
+                                   autocomplete="off" spellcheck="false"></dd>
+                    </dl>
+                </auto-check>
+
+                <password-strength minimum-character-count="8" passphrase-length="15"
+                                   invalid-message="Password is invalid." error-class="text-red text-bold"
+                                   pass-class="text-green">
+                    <dl class="form-group mb-2 required">
+                        <dt class="input-label"><label name="user[password]" required="required" for="user_password">Password</label>
+                        </dt>
+                        <dd><input aria-describedby="description_b9d1278bad8b" name="user[password]" required="required"
+                                   class="form-control" type="password" id="user_password"></dd>
+                    </dl>
+
+                </password-strength>
+
+
+                <input type="hidden" name="source" class="js-signup-source" value="login">
+
+
+                <input type="text" name="required_field_472f" id="required_field_472f" hidden="hidden"
+                       class="form-control">
+                <input type="hidden" name="timestamp" value="1561791159936" class="form-control">
+                <input type="hidden" name="timestamp_secret"
+                       value="2f15abdb31bceab51ad682e06e74cb5499fbfb2f00ce86060e948be1238891b9" class="form-control">
+
+
+                <div class="">
+                    <h2 class="f2-light mb-3">
+                        Verify account
+                    </h2>
+
+
+                    <div class="js-octocaptcha-success d-flex flex-justify-center flex-items-center width-full">
+                        <svg height="64" class="octicon octicon-check text-green"
+                             aria-label="Account has been verified. Please continue." viewBox="0 0 12 16" version="1.1"
+                             width="48" role="img">
+                            <path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path>
+                        </svg>
+                    </div>
+                    <div class="js-octocaptcha-frame-container width-full v-hidden zero-height">
+                        <iframe src="https://octocaptcha.com?origin_page=github_signup&amp;responsive=true"
+                                class="js-octocaptcha-frame width-full octocaptcha-frame d-block border-0"
+                                title="Please verify by completing this captcha."></iframe>
+                    </div>
+                    <input type="hidden" name="octocaptcha-token" class="js-octocaptcha-token"
+                           data-octocaptcha-url="https://octocaptcha.com">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary js-octocaptcha-form-submit" id="signup_button"
+                        data-disable-invalid="" data-disable-with="Creating account…">
+                    Create an account
+                </button>
+
+                <input type="hidden" id="error_loading_captcha" name="error_loading_captcha" value="1"></form>
+        </div> <!-- /.setup-form-container -->
+
+        <div class="d-none d-md-block col-md-4">
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
