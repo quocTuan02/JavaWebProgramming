@@ -6,11 +6,12 @@
 
     <servlet>
         <servlet-name>Sign Up</servlet-name>
-        <servlet-class>web.signUp</servlet-class>
+        <servlet-class>webApp.signUp</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Sign Up</servlet-name>
         <url-pattern>/sign_up</url-pattern>
     </servlet-mapping>
+
 
 </web-app>

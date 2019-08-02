@@ -2,16 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04387e53-39b7-4c6c-a806-232ca4e5889e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../database-b2/src/DBConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../database-b2/src/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../database-b2/src/QuestionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../database-b2/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../database-b2/src/StudentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/database-b1.2/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/database-b1.2/DBConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/database-b1.2/DBQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/database-b1.2/DBQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DBQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/src/webApp/signUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/web/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/StudentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/web/new.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3a.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3b.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3b.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/META-INF/BaiTap2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Main/bai122222.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/UCLN.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/UCLN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/src/Bai3a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/src/Bai3a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/src/Bai3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/src/Bai3b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/JavaWeb-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/JavaWeb-01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/web/signUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/web/signUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/web/signUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database-b2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../database-b2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="-2675">
               <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="265">
               <caret line="14" column="17" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3400">
+            <state relative-caret-position="3030">
               <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="650" />
     <option name="width" value="1900" />
@@ -110,8 +139,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,17 +217,18 @@
       <workItem from="1558775656928" duration="1217000" />
       <workItem from="1558777021587" duration="2251000" />
       <workItem from="1558847457894" duration="626000" />
+      <workItem from="1564393960740" duration="107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28553000" />
+    <option name="totallyTimeSpent" value="28660000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="520" width="1520" height="532" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12620027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12550336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -234,13 +264,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="236" column="11" selection-start-line="236" selection-start-column="11" selection-end-line="236" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/ResultSet.java" />
     <entry file="jar://D:/Downloads/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -255,9 +279,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DBQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="-2675">
           <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -267,18 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
+        <state relative-caret-position="3030">
           <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

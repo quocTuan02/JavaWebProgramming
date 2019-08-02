@@ -2,15 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5fc2d7-51cd-4a5a-8b9c-047b40f37273" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/src/web/signUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/src/webApp/signUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/web/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/StudentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/web/new.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3a.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3b.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3b.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/META-INF/BaiTap2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Main/bai122222.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/UCLN.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/UCLN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/src/Bai3a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/src/Bai3a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/src/Bai3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/src/Bai3b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/JavaWeb-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/JavaWeb-01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/web/signUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/web/signUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/web/signUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database-b1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../database-b1.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuestionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            <state relative-caret-position="600">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="870">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudentQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="390">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3360">
-              <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
               <folding>
                 <element signature="e#610#611#0" expanded="true" />
                 <element signature="e#635#636#0" expanded="true" />
@@ -111,10 +142,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
+            <state relative-caret-position="510">
               <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
@@ -123,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="570">
               <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -190,8 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,10 +237,17 @@
               <item name="database-b2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="database-b2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="mysql-connector-java-8.0.16.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,17 +319,21 @@
       <workItem from="1560251563767" duration="274000" />
       <workItem from="1560705574677" duration="82000" />
       <workItem from="1563226915106" duration="696000" />
+      <workItem from="1563244498987" duration="38000" />
+      <workItem from="1563286375041" duration="1230000" />
+      <workItem from="1564391340827" duration="23000" />
+      <workItem from="1564394091103" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43570000" />
+    <option name="totallyTimeSpent" value="44933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1328859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13959731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -368,14 +408,25 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/StringBuffer.java" />
     <entry file="file://$USER_HOME$/OneDrive - actvn.edu.vn/HeartLove/index.html" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/soapui.log">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/QuestionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/soapui-errors.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/global-groovy.log">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBConnect.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -387,10 +438,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/soapui.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/soapui-errors.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global-groovy.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
             <element signature="e#610#611#0" expanded="true" />
             <element signature="e#635#636#0" expanded="true" />
@@ -426,48 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
+        <state relative-caret-position="510">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuestionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
