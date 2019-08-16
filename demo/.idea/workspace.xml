@@ -2,16 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8488f1ad-477a-4d8e-b82f-4733b0ce3c2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HTML &amp; CSS/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML &amp; CSS/html-b2/ex16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/html.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/demo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML &amp; CSS/html-b1/ex4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML &amp; CSS/html-b1/ex4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/web/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/src/DB/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/src/DB/BookModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/src/servlets/addNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/web/component/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/web/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/out/artifacts/JavaWeb_02_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/out/artifacts/JavaWeb_02_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/StudentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/update.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/update.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/components/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/StudentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/update.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/update.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/DB/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/StudentModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/add.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/update.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/web/components/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ggg/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CleanCode/note">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="570">
               <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
@@ -97,7 +123,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
-    <option name="y" value="421" />
+    <option name="y" value="420" />
     <option name="width" value="1930" />
     <option name="height" value="615" />
   </component>
@@ -109,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -126,7 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,13 +160,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555833979795" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../database-b2" />
+    <property name="last_opened_file_path" value="C:/Application Server/glassfish5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
@@ -235,16 +261,17 @@
       <workItem from="1560331712491" duration="13170000" />
       <workItem from="1560668972946" duration="2571000" />
       <workItem from="1560705536697" duration="34000" />
+      <workItem from="1565423777286" duration="388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65008000" />
+    <option name="totallyTimeSpent" value="65396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18120806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18346775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -281,106 +308,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/text/NumberFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14167">
-          <caret line="522" column="32" selection-start-line="522" selection-start-column="32" selection-end-line="522" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Locale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13113">
-          <caret line="483" column="19" selection-start-line="483" selection-start-column="19" selection-end-line="483" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/OneDrive - actvn.edu.vn/Java/KIT/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="docComment;class#Collection#0" />
-            <element signature="docComment;method#size#0;class#Collection#0" />
-            <element signature="docComment;method#isEmpty#0;class#Collection#0" />
-            <element signature="docComment;method#contains#0;class#Collection#0" />
-            <element signature="docComment;method#iterator#0;class#Collection#0" />
-            <element signature="docComment;method#toArray#0;class#Collection#0" />
-            <element signature="docComment;method#toArray#1;class#Collection#0" />
-            <element signature="docComment;method#add#0;class#Collection#0" />
-            <element signature="docComment;method#remove#0;class#Collection#0" />
-            <element signature="docComment;method#containsAll#0;class#Collection#0" />
-            <element signature="docComment;method#addAll#0;class#Collection#0" />
-            <element signature="docComment;method#removeAll#0;class#Collection#0" />
-            <element signature="docComment;method#removeIf#0;class#Collection#0" />
-            <element signature="method#removeIf#0;class#Collection#0" />
-            <element signature="docComment;method#retainAll#0;class#Collection#0" />
-            <element signature="docComment;method#clear#0;class#Collection#0" />
-            <element signature="docComment;method#equals#0;class#Collection#0" />
-            <element signature="docComment;method#hashCode#0;class#Collection#0" />
-            <element signature="docComment;method#spliterator#0;class#Collection#0" />
-            <element signature="docComment;method#stream#0;class#Collection#0" />
-            <element signature="docComment;method#parallelStream#0;class#Collection#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/ObjectInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/JavaxCryptoSealedObjectAccess.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="494" column="13" selection-start-line="494" selection-start-column="13" selection-end-line="494" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/SharedSecrets.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="187" column="52" selection-start-line="187" selection-start-column="52" selection-end-line="187" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/text/NumberFormat.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Locale.java" />
+    <entry file="file://$USER_HOME$/OneDrive - actvn.edu.vn/Java/KIT/src/main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collection.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/ObjectInput.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/Serializable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/JavaxCryptoSealedObjectAccess.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashSet.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/SharedSecrets.class" />
     <entry file="file://$PROJECT_DIR$/src/Demo/Ojb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -463,7 +401,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CleanCode/note">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="570">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>

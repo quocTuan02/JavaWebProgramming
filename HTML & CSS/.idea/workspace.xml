@@ -2,9 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60338454-a996-4ee9-90f2-e5d6e463ccbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/web/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-03/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-03/web/cacacccc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-03/web/components/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/src/DB/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/src/DB/BookModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/src/servlets/addNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/web/component/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/web/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/out/artifacts/JavaWeb_02_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/out/artifacts/JavaWeb_02_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/StudentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/update.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/update.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/components/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/StudentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/update.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/update.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/DB/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/StudentModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/add.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/update.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/web/components/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ggg/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/demo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -53,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="480">
               <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
             </state>
           </provider>
@@ -104,10 +142,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1930" />
-    <option name="height" value="665" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-2" />
+    <option name="y" value="7" />
+    <option name="width" value="1119" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,38 +155,15 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="HTML &amp; CSS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\oOo\Desktop\JavaWebProgramming\HTML &amp; CSS" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="HTML &amp; CSS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\oOo\Desktop\JavaWebProgramming\HTML &amp; CSS" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="demo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HTML &amp; CSS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\oOo\Desktop\JavaWebProgramming\HTML &amp; CSS" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="html-b1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HTML &amp; CSS" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\oOo\Desktop\JavaWebProgramming\HTML &amp; CSS" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -206,19 +222,24 @@
       <workItem from="1561129975453" duration="5594000" />
       <workItem from="1561178084990" duration="4879000" />
       <workItem from="1561313252592" duration="75000" />
+      <workItem from="1565513160983" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48664000" />
+    <option name="totallyTimeSpent" value="49266000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18001324" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1827957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -230,10 +251,48 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Codota" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.1827957" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Codota" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -371,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/ex16">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2190">
@@ -387,8 +439,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="480">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -5,15 +5,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnect {
-    public Connection getConnect() throws ClassNotFoundException, SQLException {
+    public Connection getConn() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        String conStr = "jdbc:mysql://localhost:3306/QLSV?autoReconnect=true&useSSL=false";
-        String username = "root";
+        String conStr = "jdbc:mysql://localhost:3306/bookmanager?autoReconnect=true&useSSL=false";
+        String user = "root";
         String password = "root123";
-
-        Connection connection = DriverManager.getConnection(conStr, username, password);
+        Connection connection = DriverManager.getConnection(conStr, user, password);
         return connection;
     }
-
 
 }

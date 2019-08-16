@@ -1,108 +1,194 @@
-<%@ page import="DB.StudentModel" %>
-<%@ page import="DB.Student" %>
-<%@ page import="java.util.List" %><%--
+<%@ page import="DB.BookModel" %>
+<%@ page import="DB.Book" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.sql.SQLException" %><%--
   Created by IntelliJ IDEA.
   User: Nguyen Quoc Tuan
-  Date: 29/07/2019
-  Time: 2:52 CH
+  Date: 04/08/2019
+  Time: 2:21 CH
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Buoi 25</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        .table > tbody > tr > td, th {
-            vertical-align: middle;
-        }
-    </style>
+    <title>Book</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+
 </head>
 <body>
-<%@include file="components/navbar.jsp" %>
+<%@include file="component/navbar.jsp" %>
 
 <div class="container">
     <table class="table">
         <thead class="thead-dark">
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Tên</th>
-            <th scope="col">Tuổi</th>
-            <th scope="col">Địa chỉ</th>
+            <th scope="col">Tên sách</th>
+            <th scope="col">Tác giả</th>
+            <th scope="col">Giá</th>
+            <th scope="col">Số lượng</th>
             <th scope="col">Chức năng</th>
+
         </tr>
         </thead>
         <tbody>
         <%
-            StudentModel model = new StudentModel();
-            List<Student> list = model.getList();
-            int idx = 0;
-            for (Student s : list) {
-                idx++;
-
+            try {
+                BookModel model = new BookModel();
+                List<Book> list = model.getList();
+                int idx = 0;
+                for (Book book : list) {
+                    idx++;
         %>
-        <tr id="tr<%=s.getId()%>">
-            <th scope="row" style="vertical-align: middle">
+        <tr id="tr<%=book.getId()%> " class="list">
+            <th scope="row">
                 <span class="idx"><%=idx%></span>
             </th>
             <td>
-                <span id="nameSpan<%=s.getId()%>"><%=s.getName()%></span>
-                <input id="nameInp<%=s.getId()%>" type="text" class="form-control" value="<%=s.getName()%>" hidden>
+                <span id="titleSpan<%=book.getId()%>"><%=book.getTitle()%></span>
+                <input id="titleInput<%=book.getId()%>" class="form-control" type="text" value="<%=book.getTitle()%>"
+                       hidden
+                />
             </td>
             <td>
-                <span id="ageSpan<%=s.getId()%>"><%=s.getAge()%></span>
-                <input id="ageInp<%=s.getId()%>" type="text" class="form-control" value="<%=s.getAge()%>" hidden>
+                <span id="authorSpan<%=book.getId()%>"><%=book.getAuthor()%></span>
+                <input id="authorInput<%=book.getId()%>" class="form-control" type="text" value="<%=book.getAuthor()%>"
+                       hidden/>
             </td>
             <td>
-                <span id="addressSpan<%=s.getId()%>"><%=s.getAddress()%></span>
-                <input id="addressInp<%=s.getId()%>" type="text" class="form-control" value="<%=s.getAddress()%>"
-                       hidden>
+                <span id="priceSpan<%=book.getId()%>"><%=book.getPrice()%></span>
+                <input id="priceInput<%=book.getId()%>" class="form-control" type="text" value="<%=book.getPrice()%>"
+                       hidden/>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="enableUpdate(<%=s.getId()%>)">Sửa</button>
-                <button type="button" class="btn btn-danger" onclick="deleteRow(<%=s.getId()%>)">Xóa</button>
+                <span id="quantitySpan<%=book.getId()%>"><%=book.getQuantity()%></span>
+                <input id="quantityInput<%=book.getId()%>" class="form-control" type="text"
+                       value="<%=book.getQuantity()%>" hidden/>
+            </td>
+            <td id="update<%=book.getId()%>">
+                <input type="button" class="btn btn-primary" onclick="enableUpdate(<%=book.getId()%>)" value="Sửa"/>
+                <input type="button" class="btn btn-danger" onclick="deleteRow(<%=book.getId()%>)" value="Xóa"/>
+            </td>
+            <td id="apply<%=book.getId()%>" hidden>
+                <input type="button" class="btn btn-success" onclick="update(<%=book.getId()%>)" value="Hoàm thành"/>
+                <input type="button" class="btn btn-danger" onclick="cancel()" value="Hủy"/>
             </td>
         </tr>
         <%
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
             }
         %>
-        <tr id="trNew">
-            <th scope="row" style="vertical-align: middle">
-                <span class="idx"></span>
-            </th>
+        <tr id="trNew" hidden>
+            <th scope="row"></th>
             <td>
-                <input id="nameInpNew" type="text" class="form-control" placeholder="Full Name" hidden>
+                <input id="titleInputNew" class="form-control" type="text" placeholder="Tên sách"/>
             </td>
             <td>
-                <input id="ageInpNew" type="text" class="form-control" placeholder="Age" hidden>
+                <input id="authorInputNew" class="form-control" type="text" placeholder="Tác giả"/>
             </td>
             <td>
-                <input id="addressInpNew" type="text" class="form-control" placeholder="Address" hidden>
+                <input id="priceInputNew" class="form-control" type="text" placeholder="Giá"/>
             </td>
             <td>
-                <button type="button" class="btn btn-success" id="finish" onclick="finish()" hidden>Finish</button>
+                <input id="quantityInputNew" class="form-control" type="text" placeholder="Số lượng"/>
+            </td>
+            <td>
+                <input type="button" class="btn btn-success" onclick="finish()" value="Hoàm thành"/>
+                <input type="button" class="btn btn-danger" onclick="cancel()" value="Hủy"/>
             </td>
         </tr>
-
         </tbody>
     </table>
-
-    <input class="btn btn-success" type="button" value="Thêm" onclick="add()"/>
+    <input id="add_new" class="btn btn-success" type="button" onclick="addNew()" value="Thêm mới"/>
 </div>
 
-<script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous">
-
-</script>
 
 <script>
-    const elemNames = ["name", "age", "address"];
-    var inpName = "#nameInpNew";
-    var inpAge = "#ageInpNew";
-    var inpAddress = "#addressInpNew";
+
+    const elemNames = ["title", "author", "price", "quantity"];
+
+    function addNew() {
+        $("#trNew").attr("hidden", false);
+        //  $(".list").attr("hidden", true);
+        $("#add_new").attr("hidden", true);
+
+    }
+
+    function cancel() {
+        $("#trNew").attr("hidden", true);
+        location.reload()
+    }
+
+
+    function finish() {
+        $.ajax({
+            url: "add_new",
+            type: "post",
+            data: {
+                title: $("#titleInputNew").val(),
+                author: $("#authorInputNew").val(),
+                price: $("#priceInputNew").val(),
+                quantity: $("#quantityInputNew").val(),
+            },
+
+            success: function (result) {
+                alert("Thêm mới thành công");
+                location.reload();
+            },
+            error: function (error) {
+                alert("Loi!");
+            }
+        });
+    }
+
+    function update(id) {
+        $.ajax({
+            url: "update",
+            type: "post",
+            data: {
+                id: id,
+                title: $("#titleInput" + id).val(),
+                author: $("#authorInput" + id).val(),
+                price: $("#priceInput" + id).val(),
+                quantity: $("#quantityInput" + id).val(),
+            },
+
+            success: function (result) {
+                alert("Sửa thành công !");
+
+            },
+            error: function (error) {
+                alert("Lỗi!");
+            }
+        });
+    }
+
+    function enableUpdate(id) {
+        elemNames.forEach(function (element) {
+            var inputSelector = "#" + element + "Input" + id;
+            var spanSelector = "#" + element + "Span" + id;
+
+            $(".list").attr("hidden", true);
+
+            $(inputSelector).attr("hidden", false);
+            // $(spanSelector).attr("hidden", true);
+
+            $("#apply" + id).attr("hidden", false);
+            // $("#update" + id).attr("hidden", true);
+
+        })
+    }
+
 
     function deleteRow(id) {
         $.ajax({
@@ -121,81 +207,14 @@
         });
     }
 
-    function finish() {
-        $.ajax({
-            url: "add",
-            type: "post",
-            data: {
-                name: document.getElementById("nameInpNew").value,
-                age: document.getElementById("ageInpNew").value,
-                address: document.getElementById("addressInpNew").value,
-            },
-            success: function (result) {
-                alert("Thêm mới thành công");
-                location.reload();
-            },
-            error: function (error) {
-                alert("Loi!");
-            }
-        });
-    }
 
-    function add() {
-        $(inpName).attr("hidden", false);
-        $(inpAge).attr("hidden", false);
-        $(inpAddress).attr("hidden", false);
-        $("#finish").attr("hidden", false);
+</script>
 
-    }
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
 
-    function enableUpdate(id) {
-
-        elemNames.forEach(function (element) {
-            const spanSelector = "#" + element + "Span" + id;
-            const inpSelector = "#" + element + "Inp" + id;
-            $(spanSelector).attr("hidden", true);
-            $(inpSelector).attr("hidden", false);
-
-            $(inpSelector).keypress(function (event) {
-                if (event.which === 13) {
-                    update(id);
-                }
-            })
-        });
-    }
-
-    function update(id) {
-        elemNames.forEach(function (element) {
-            const spanSelector = "#" + element + "Span" + id;
-            const inpSelector = "#" + element + "Inp" + id;
-
-            $(spanSelector).attr("hidden", false);
-            $(inpSelector).attr("hidden", true);
-
-            const oldVal = $(spanSelector).text();
-            const newVal = $(inpSelector).val();
-
-            if (oldVal !== newVal) {
-                $(spanSelector).text(newVal);
-
-                $.ajax({
-                    url: "update",
-                    type: "post",
-                    data: {
-                        key: element,
-                        id: id,
-                        newValue: newVal
-                    },
-                    success: function (result) {
-                        alert("Sua thanh cong!");
-                    },
-                    error: function (error) {
-                        alert("Loi");
-                    }
-                })
-            }
-        })
-    }
 </script>
 </body>
 </html>

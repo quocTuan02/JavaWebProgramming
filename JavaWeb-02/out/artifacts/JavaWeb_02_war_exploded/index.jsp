@@ -1,6 +1,7 @@
 <%@ page import="DB.StudentModel" %>
 <%@ page import="DB.Student" %>
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%--
   Created by IntelliJ IDEA.
   User: Nguyen Quoc Tuan
   Date: 29/07/2019
@@ -10,7 +11,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Buoi 25</title>
+    <title>Jsp Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
@@ -40,23 +41,22 @@
             int idx = 0;
             for (Student s : list) {
                 idx++;
-
         %>
-        <tr id="tr<%=s.getId()%>">
+        <tr id="tr<%=s.getId()%>" class="list">
             <th scope="row" style="vertical-align: middle">
                 <span class="idx"><%=idx%></span>
             </th>
             <td>
                 <span id="nameSpan<%=s.getId()%>"><%=s.getName()%></span>
-                <input id="nameInp<%=s.getId()%>" type="text" class="form-control" value="<%=s.getName()%>" hidden>
+                <input id="nameInput<%=s.getId()%>" type="text" class="form-control" value="<%=s.getName()%>" hidden>
             </td>
             <td>
                 <span id="ageSpan<%=s.getId()%>"><%=s.getAge()%></span>
-                <input id="ageInp<%=s.getId()%>" type="text" class="form-control" value="<%=s.getAge()%>" hidden>
+                <input id="ageInput<%=s.getId()%>" type="text" class="form-control" value="<%=s.getAge()%>" hidden>
             </td>
             <td>
                 <span id="addressSpan<%=s.getId()%>"><%=s.getAddress()%></span>
-                <input id="addressInp<%=s.getId()%>" type="text" class="form-control" value="<%=s.getAddress()%>"
+                <input id="addressInput<%=s.getId()%>" type="text" class="form-control" value="<%=s.getAddress()%>"
                        hidden>
             </td>
             <td>
@@ -67,28 +67,30 @@
         <%
             }
         %>
-        <tr id="trNew">
-            <th scope="row" style="vertical-align: middle">
-                <span class="idx"></span>
-            </th>
-            <td>
-                <input id="nameInpNew" type="text" class="form-control" placeholder="Full Name" hidden>
-            </td>
-            <td>
-                <input id="ageInpNew" type="text" class="form-control" placeholder="Age" hidden>
-            </td>
-            <td>
-                <input id="addressInpNew" type="text" class="form-control" placeholder="Address" hidden>
-            </td>
-            <td>
-                <button type="button" class="btn btn-success" id="finish" onclick="finish()" hidden>Finish</button>
-            </td>
+        <tr id="trNew" hidden>
+                <th scope="row" style="vertical-align: middle">
+                    <span class="idx"></span>
+                </th>
+                <td>
+                    <input id="nameInputNew" type="text" class="form-control" placeholder="Full Name">
+                </td>
+                <td>
+                    <input id="ageInputNew" type="text" class="form-control" placeholder="Age">
+                </td>
+                <td>
+                    <input id="addressInputNew" type="text" class="form-control" placeholder="Address">
+                </td>
+                <td>
+                    <input id="finish" type="button" class="btn btn-success" onclick="finish()" value="Hoàn thành"/>
+                    <input id="cancel" type="button" class="btn btn-danger" onclick="cancel()" value="Hủy"/>
+                </td>
+
         </tr>
 
         </tbody>
     </table>
 
-    <input class="btn btn-success" type="button" value="Thêm" onclick="add()"/>
+    <input id="add_new" class="btn btn-success" type="button" value="Thêm mới" onclick="add()"/>
 </div>
 
 <script
@@ -97,105 +99,10 @@
         crossorigin="anonymous">
 
 </script>
+<script
+        src="js/main.js">
 
-<script>
-    const elemNames = ["name", "age", "address"];
-    var inpName = "#nameInpNew";
-    var inpAge = "#ageInpNew";
-    var inpAddress = "#addressInpNew";
-
-    function deleteRow(id) {
-        $.ajax({
-            url: "delete",
-            type: "post",
-            data: {
-                id: id
-            },
-            success: function (result) {
-                alert("Xóa thành công");
-                location.reload();
-            },
-            error: function (error) {
-                alert("Loi!");
-            }
-        });
-    }
-
-    function finish() {
-        $.ajax({
-            url: "add",
-            type: "post",
-            data: {
-                name: document.getElementById("nameInpNew").value,
-                age: document.getElementById("ageInpNew").value,
-                address: document.getElementById("addressInpNew").value,
-            },
-            success: function (result) {
-                alert("Thêm mới thành công");
-                location.reload();
-            },
-            error: function (error) {
-                alert("Loi!");
-            }
-        });
-    }
-
-    function add() {
-        $(inpName).attr("hidden", false);
-        $(inpAge).attr("hidden", false);
-        $(inpAddress).attr("hidden", false);
-        $("#finish").attr("hidden", false);
-
-    }
-
-    function enableUpdate(id) {
-
-        elemNames.forEach(function (element) {
-            const spanSelector = "#" + element + "Span" + id;
-            const inpSelector = "#" + element + "Inp" + id;
-            $(spanSelector).attr("hidden", true);
-            $(inpSelector).attr("hidden", false);
-
-            $(inpSelector).keypress(function (event) {
-                if (event.which === 13) {
-                    update(id);
-                }
-            })
-        });
-    }
-
-    function update(id) {
-        elemNames.forEach(function (element) {
-            const spanSelector = "#" + element + "Span" + id;
-            const inpSelector = "#" + element + "Inp" + id;
-
-            $(spanSelector).attr("hidden", false);
-            $(inpSelector).attr("hidden", true);
-
-            const oldVal = $(spanSelector).text();
-            const newVal = $(inpSelector).val();
-
-            if (oldVal !== newVal) {
-                $(spanSelector).text(newVal);
-
-                $.ajax({
-                    url: "update",
-                    type: "post",
-                    data: {
-                        key: element,
-                        id: id,
-                        newValue: newVal
-                    },
-                    success: function (result) {
-                        alert("Sua thanh cong!");
-                    },
-                    error: function (error) {
-                        alert("Loi");
-                    }
-                })
-            }
-        })
-    }
 </script>
+
 </body>
 </html>
