@@ -2,48 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5fc2d7-51cd-4a5a-8b9c-047b40f37273" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/src/webApp/signUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/web/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/DBConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/src/DB/StudentModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/web/new.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-03/src/servlet/search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/DB/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/DTO/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/DTO/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/model/AuthorModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/model/NewsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/src/com/java/demo/BEAN/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/src/com/java/demo/BEAN/member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/src/com/java/demo/CONTROLLER/home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/src/com/java/demo/DB/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/src/com/java/demo/MODEl/ProductModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/web/WEB-INF/view/home-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/src/servlets/indexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/web/books-manage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3a.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3b.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai3b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Bai9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/META-INF/BaiTap2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/Main/bai122222.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/UCLN.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/out/production/BaiTap2/UCLN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/src/Bai3a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/src/Bai3a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises2/src/Bai3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/src/Bai3b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/JavaWeb-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/JavaWeb-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/DBConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/web/signUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/DBConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/web/signUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/web/signUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database-b1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../database-b1.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises2/src/Bai4a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises2/src/Bai4a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises6/student/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises6/student/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises6/student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises6/student/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises6/student/src/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises6/student/src/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises7/Product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises7/Product/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises7/Product/src/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises7/Product/src/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises7/Product/src/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises7/Product/src/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises8/Manager/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises8/Manager/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises8/Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises8/Manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises9/studentManager/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises9/studentManager/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/DB/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/DB/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/DB/NewsModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/DB/NewsModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/servlet/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/servlet/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/cacacccc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/DB/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/DB/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/DB/NewsModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/DB/NewsModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/servlet/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/servlet/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/src/DB/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/src/DB/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/src/DB/NewsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/src/DB/NewsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/src/servlet/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/src/servlet/news.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/web/cacacccc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/cljv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/cljv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/BookModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/addNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/BookModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/addNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/DTO/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/BookModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/model/BookModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/addNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/addNewServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/deleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/update.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/updateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/artifacts/ggg_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/ggg.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/artifacts/untitled_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/WEB-INF/classes/DB/DBConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/WEB-INF/classes/DB/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/WEB-INF/classes/DB/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/DB/DBConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/DB/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/DB/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/DB/DBConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/DB/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/DB/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/web/index.jsp" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,133 +111,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuestionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DBConnect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StudentQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Question.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-              <folding>
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1398#1399#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-                <element signature="e#1469#1470#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1542#1543#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/soapui.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/soapui-errors.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/global-groovy.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,74 +122,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/DBConn.java" />
-        <option value="$USER_HOME$/OneDrive - actvn.edu.vn/MapLove/main/index.html" />
-        <option value="$USER_HOME$/OneDrive - actvn.edu.vn/MapLove/index.html" />
-        <option value="$PROJECT_DIR$/src/DBConnect.java" />
-        <option value="$PROJECT_DIR$/src/StudentQuestions.java" />
-        <option value="$PROJECT_DIR$/src/Manager.java" />
-        <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$USER_HOME$/OneDrive - actvn.edu.vn/HeartLove/index.html" />
-        <option value="$PROJECT_DIR$/src/StudentManager.java" />
-        <option value="$PROJECT_DIR$/src/studentQuestion.java" />
-        <option value="$PROJECT_DIR$/src/Question.java" />
-        <option value="$PROJECT_DIR$/src/QuestionManager.java" />
-        <option value="$PROJECT_DIR$/src/StudentQuestion.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1920" />
-    <option name="height" value="660" />
-  </component>
+  <component name="ProjectId" id="1Q0hvzT8wq7l3yNrhZ3igKcuSlZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="database-b2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="database-b2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="database-b2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="database-b2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="database-b2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="database-b2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="mysql-connector-java-8.0.16.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -323,194 +200,23 @@
       <workItem from="1563286375041" duration="1230000" />
       <workItem from="1564391340827" duration="23000" />
       <workItem from="1564394091103" duration="72000" />
+      <workItem from="1566913657017" duration="2381000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44933000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13959731" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9560906" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Codota" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12903225" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2713068" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Codota" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/OneDrive - actvn.edu.vn/MapLove/main/index.html" />
-    <entry file="file://$USER_HOME$/OneDrive - actvn.edu.vn/MapLove/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/Manager.java" />
-    <entry file="file://$PROJECT_DIR$/src/StudentQuestions.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/StringBuffer.java" />
-    <entry file="file://$USER_HOME$/OneDrive - actvn.edu.vn/HeartLove/index.html" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/QuestionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StudentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/soapui.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/soapui-errors.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/global-groovy.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
@@ -583,5 +289,55 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

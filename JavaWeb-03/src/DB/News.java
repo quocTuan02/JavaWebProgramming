@@ -11,7 +11,8 @@ public class News {
     private Date date;
     private int authorId;
 
-    public News() { }
+    public News() {
+    }
 
     public News(int id, String title, String image, String summary, String content, Date date, int authorId) {
         this.id = id;

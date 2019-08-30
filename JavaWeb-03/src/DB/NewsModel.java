@@ -33,16 +33,30 @@ public class NewsModel {
         return list;
     }
 
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        NewsModel model = new NewsModel();
-        List<News> list = model.getlist(5, 6);
 
-        for (News news : list) {
-            System.out.printf("%-5d%-20s%-30s%-30s%-25s%-20s%-5d\n",
-                    news.getId(), news.getTitle(), news.getImage(), news.getSummary(),
-                    news.getContent(), news.getDate(), news.getAuthorId()
-            );
-        }
+    public int countNews() throws SQLException, ClassNotFoundException {
+        DBConnect db = new DBConnect();
+        Connection connect = db.getConnect();
+        String sql = "Select count(*) from news.news;";
+        PreparedStatement preparedStatement = connect.prepareStatement(sql);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        resultSet.next();
+        return resultSet.getInt(1);
+    }
+
+
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+//        NewsModel model = new NewsModel();
+//        List<News> list = model.getlist(5, 6);
+//
+//        for (News news : list) {
+//            System.out.printf("%-5d%-20s%-30s%-30s%-25s%-20s%-5d\n",
+//                    news.getId(), news.getTitle(), news.getImage(), news.getSummary(),
+//                    news.getContent(), news.getDate(), news.getAuthorId()
+//            );
+//        }
+
+        System.out.println((int)5.5);
 
     }
 }

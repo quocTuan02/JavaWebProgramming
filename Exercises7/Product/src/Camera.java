@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
-public class Camera extends Product{
+public class Camera extends Product {
     private boolean hasWfi;
 
-    public Camera(){}
+    public Camera() {
+    }
+
     public Camera(boolean hasWfi) {
         this.hasWfi = hasWfi;
     }
@@ -20,15 +22,16 @@ public class Camera extends Product{
     public void setHasWfi(boolean hasWfi) {
         this.hasWfi = hasWfi;
     }
+
     @Override
-    public void addNew(){
+    public void addNew() {
         super.addNew();
         System.out.printf("có Wifi hay không (Y/N): ");
         String or = new Scanner(System.in).nextLine();
-        if(or.compareToIgnoreCase("n")==0){
-            this.hasWfi =false;
-        }else{
-            this.hasWfi=true;
+        if (or.compareToIgnoreCase("n") == 0) {
+            this.hasWfi = false;
+        } else {
+            this.hasWfi = true;
         }
     }
 }

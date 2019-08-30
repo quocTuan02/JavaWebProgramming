@@ -7,7 +7,7 @@ public class DBConnect {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String conStr = "jdbc:mysql://localhost:3306/TracNghiem";
         String user = "root";
-        String password = "vannhucu";
+        String password = "root123";
         Connection connection = DriverManager.getConnection(conStr, user, password);
         return connection;
     }

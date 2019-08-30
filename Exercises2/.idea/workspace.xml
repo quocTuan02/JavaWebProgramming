@@ -6,40 +6,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a47704a1-3833-4743-a95a-b247f3dda0ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/src/webApp/signUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-01/web/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb-02/web/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-03/src/servlet/search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/DB/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/DTO/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/DTO/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/model/AuthorModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-04/src/model/NewsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/src/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb-05/web/WEB-INF/view/home-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/src/servlets/indexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cljv/web/books-manage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiTap2/Bai3a.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiTap2/Bai3a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiTap2/Bai3b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiTap2/Bai3b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiTap2/Bai8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiTap2/Bai8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiTap2/Bai9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiTap2/Bai9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiTap2/META-INF/BaiTap2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiTap2/Main/bai122222.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiTap2/UCLN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiTap2/UCLN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai3a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/DBConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/DB/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/web/signUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/classes/web/signUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/artifacts/JavaWeb_01_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/DBConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/DB/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/web/signUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/out/production/JavaWeb-01/web/signUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/DBConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/src/DB/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/src/web/signUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb-01/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-01/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database-b2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../database-b2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai4a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/DB/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/DB/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/DB/NewsModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/DB/NewsModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/servlet/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/WEB-INF/classes/servlet/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/cacacccc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/artifacts/JavaWeb_03_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/DB/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/DB/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/DB/NewsModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/DB/NewsModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/servlet/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/out/production/JavaWeb-03/servlet/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/src/DB/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/src/DB/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/src/DB/NewsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/src/DB/NewsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/src/servlet/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/src/servlet/news.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/web/cacacccc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb-03/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb-03/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/cljv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/cljv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/DB/BookModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/addNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/WEB-INF/classes/servlets/update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/out/artifacts/cljv_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/DB/BookModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/addNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/out/production/cljv/servlets/update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/DTO/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/DB/BookModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/model/BookModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/addNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/addNewServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/deleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/src/servlets/update.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/src/servlets/updateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cljv/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cljv/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/artifacts/ggg_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/ggg.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ggg/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/artifacts/untitled_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/WEB-INF/classes/DB/DBConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/WEB-INF/classes/DB/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/WEB-INF/classes/DB/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/artifacts/untitled_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/DB/DBConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/DB/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/untitled/DB/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/DB/DBConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/DB/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/DB/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/web/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +103,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bai3a.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -66,10 +113,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bai3b.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Bai4a.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bai4b.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -106,11 +189,11 @@
         <option value="$PROJECT_DIR$/src/Bai6.java" />
         <option value="$PROJECT_DIR$/src/Bai4b.java" />
         <option value="$PROJECT_DIR$/src/Bai8.java" />
-        <option value="$PROJECT_DIR$/src/Bai4a.java" />
         <option value="$PROJECT_DIR$/src/Bai9.java" />
         <option value="$PROJECT_DIR$/src/UCLN.java" />
         <option value="$PROJECT_DIR$/src/Bai3b.java" />
         <option value="$PROJECT_DIR$/src/Bai3a.java" />
+        <option value="$PROJECT_DIR$/src/Bai4a.java" />
       </list>
     </option>
   </component>
@@ -126,7 +209,26 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Exercises2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercises2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exercises2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercises2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -222,23 +324,25 @@
       <workItem from="1563453626588" duration="2293000" />
       <workItem from="1563633781444" duration="411000" />
       <workItem from="1564220118788" duration="10000" />
+      <workItem from="1566710823194" duration="248000" />
+      <workItem from="1566720334516" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10749000" />
+    <option name="totallyTimeSpent" value="11023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1409396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6203966" />
@@ -309,20 +413,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Exercises/src/Bai1.java" />
     <entry file="file://$PROJECT_DIR$/../Test@/src/HelloJava.java" />
-    <entry file="file://$PROJECT_DIR$/src/Bai4a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai4b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai5b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -351,13 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bai1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -373,13 +456,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/Bai2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai9.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -401,10 +477,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bai3b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai4b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bai4a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -483,5 +587,55 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>
