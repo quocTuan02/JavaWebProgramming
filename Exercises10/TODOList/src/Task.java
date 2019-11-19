@@ -1,11 +1,16 @@
-/*
-1. Xây dựng lớp Task (int id, String title, String content, boolean done)
+import java.io.Serializable;
+
+/**
+ * 1. Xây dựng lớp Task (int id, String title, String content, boolean done)
  */
-public class Task {
+public class Task implements Serializable {
     private int id;
     private String title;//tiêu đề
     private String content;//Nội dung
     private boolean done;//hoàn thành
+
+    public Task() {
+    }
 
     public Task(int id, String title, String content, boolean done) {
         this.id = id;
@@ -38,7 +43,7 @@ public class Task {
         this.content = content;
     }
 
-    public boolean getDone() {
+    public boolean isDone() {
         return done;
     }
 
